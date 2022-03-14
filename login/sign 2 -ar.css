@@ -1,0 +1,47 @@
+body{
+    background-color: #18b5d5; background: linear-gradient(130deg, #000000 0%,#18b5d5 0% ,#dd54a4 110%); 
+    height: 771px;
+}
+
+
+
+.log{
+    height: 500px; width: 550px; background-color: rgb(255, 255, 255);  text-align: center; position: relative; 
+    left: 420px;top: 100px; border-radius:15px ; filter: drop-shadow(0 0 0.73rem rgb(68, 67, 67));
+}
+.log img{
+width: 100px; position: relative; top:10px
+}
+.em{
+    position: relative; width: 392px;
+    top: 35px; height: 30px; border: #18b5d5 solid ;border-radius:7px ;text-align: right; font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.ft{
+    position: relative; width: 190px;
+    top: 23px;height: 30px; border: #18b5d5 solid ;border-radius:7px ;text-align: right; font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.ps{
+    position: relative; width: 392px;
+    top: 45px;height: 30px; 
+    border: #18b5d5 solid ;border-radius:7px ;text-align: right; font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.log h1{
+    font-family: Arial, Helvetica, sans-serif; position: relative; top: 50px; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.log select{
+    position: relative; top:30px; width: 80px; height: 25px; cursor: pointer; border-radius: 5px; border: #18b5d5 solid ;
+}
+.m{
+    position: relative;bottom: 5px; font-family:Arial, Helvetica, sans-serif ; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.log button{
+    position: relative;top:10px;height: 30px;  border: #18b5d5 solid ; cursor: pointer;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.log h2{
+    font-family: Arial, Helvetica, sans-serif; position: relative;top:25px; font-family:Georgia, 'Times New Roman', Times, serif;
+
+}

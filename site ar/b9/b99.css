@@ -1,0 +1,311 @@
+/*body{
+    background-color: #e5233b;
+}*/
+
+.all1{
+    position: relative; background-color: #fd6824; height: 400px; right: -8px;
+}
+
+.start{
+    height: 45px; 
+      font-family:Arial, Helvetica, sans-serif;
+       padding: 20px;
+      background-color: #fd6824 ; position: relative; right: -8px;
+       font-family: 'Tajawal', sans-serif,Verdana, Geneva, Tahoma, sans-serif;
+   
+    }
+    
+    .start  h1{
+        width: 236px; height: 35px;
+     text-decoration: none;
+        background-color:  rgb(255, 255, 255) ;
+        right: -1004px;
+         color:rgb(0, 0, 0); 
+         position: relative; 
+         bottom: 15px;
+          margin-left:125px; 
+          font-size: 25px;
+          transition: 0.10s;
+          text-align: center;   
+    }
+
+    .start h1::after{
+        content:"\02C3" ; opacity: 1;
+        position: relative ; right: -2px;transition: 0.10s; top: 1px;
+
+    }
+    .start h1:hover::after{
+        right: -5px;transition: 0.10s;
+       
+    }
+    .start h1:hover{
+        background-color: rgb(224, 221, 221); transition: 0.10s;
+    }
+
+
+    
+    .start span{
+    
+        position: relative;bottom: 5.7ch; left: 77px; color: rgb(48, 48, 48); 
+        border-radius:10px ; 
+    }
+ 
+    
+        .start a{text-decoration: none; }
+    
+    .start ul {
+    
+        height: 50px; color: rgb(3, 3, 3); 
+        list-style: none; 
+        position: relative; 
+        right:270px; bottom:79px;
+        float: right;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    }
+    
+    
+    .start li {
+        margin-right: 30px; 
+        float: left; font-size: 20px; text-align: center;
+        cursor: pointer; 
+    
+    }
+    
+    .start ul :hover{
+        height: 45px; border-bottom:2px solid rgb(0, 0, 0);
+    }
+    .start a li{
+        color: black;
+     }
+    .start hr{
+       position: relative; bottom: 11.1ch; width: 1390px; 
+    }
+    
+    .sign button{
+        width: 80px; height: 47px; 
+        background-color:#fd6824;
+         position: relative;
+          float: right; 
+          right :1184px;
+           bottom: 466px;
+           border: rgb(255, 255, 255);
+           border-radius: 10px ;
+           font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           cursor: pointer; font-size: 15px;
+    }
+    
+    .login button{
+        width: 80px; height: 45px; 
+        background-color: #fd6824;
+         position: relative;
+          float: right; 
+          right: 1192px;
+           bottom: 466px;
+           border: rgb(255, 255, 255);
+           border-radius: 10px ;
+           font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           cursor: pointer; 
+           font-size: 15px;
+    }
+    
+    
+    
+     .search{
+         height: 50px; 
+        /* background:linear-gradient(90deg, #000000 0% ,rgb(126, 11, 11) 0% ,rgb(0, 60, 255) 100%); */
+        width: 350px;   text-align: center;
+         border-radius: 60px;  position: relative; bottom:65px ;  left:36ch
+         
+     }
+    .search input{
+       width: 300px; height: 30px;  position: relative; top: -402.7px;  
+        border-radius: 10px;;font-family: 'Tajawal', sans-serif; text-align: right; border: rgb(136, 135, 135) solid 
+    }
+    
+    .search button {
+       border-radius: 10px; border: rgb(136, 135, 135) solid ;height: 30px; width:45px ; background-color: rgb(255, 255, 255);
+       cursor: pointer; position: relative;   top: -391px; right: 353px; 
+    }
+    
+    .search button img{
+      width: 45px; position: relative; right: 9px; bottom: 2px;
+    }
+    
+    .img{
+        height:189px ; width: 189px; background:url("./g.png") ; filter: drop-shadow(0 0 0.75rem rgb(73, 71, 72)); 
+        position: relative; left: 1157px;  top: 475px; border-radius:15px ;
+      }
+      .pro{
+        position: relative; bottom:180px; left: 400px;  width: 402px;
+       
+   }
+   .pro h1{
+     color: rgb(255, 255, 255);font-size: 50px;  width:483px; position: relative; right: -256px; bottom:-21px; text-align: right;
+     font-family: 'Tajawal', sans-serif,Verdana, Geneva, Tahoma, sans-serif;   }
+
+ 
+   .pro::after{
+       content: "9"; position: relative; right: -755px; bottom:169px; font-weight: 600;
+       color: rgb(68, 36, 20);  font-size: 150px; font-family: 'CombiNumerals Ltd', sans-serif;
+   }
+      .p{
+          position: relative ; bottom: 860px;left: 245px; width: 60px; 
+      }
+      .p p{
+          width: 606px;  position: relative; right: -370px; color: rgb(255, 255, 255);text-align: right;
+            font-size: 30px; font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-CondensedBold,"Helvetica Inserat","Franklin Gothic Condensed",Haettenschweiler,Impact,sans-serif-condensed,sans-serif;
+
+      }
+        .img1{    
+            height: 486px;
+            width: 650px;
+            background: url(./1_AHHXOYbkw_Gnb1k-v5Zthg.jpeg);
+            background-repeat: no-repeat;
+            position: relative;
+            left: -18px;
+            bottom: 663px;
+            clip-path: polygon(0% 0,0% 100%, 100% 100%,60% 0%);
+           
+        }
+       
+        .pov {
+            position: relative; left:350px; width:450px;
+        }
+        .pov h1{
+            font-family: 'Tajawal', sans-serif,Verdana, Geneva, Tahoma, sans-serif;
+            border-bottom:2px solid #000 ; width: 371px; font-size: 40px; position: relative; right: -345px; text-align: right;
+        }
+        .pov p{
+           font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: right;
+           width: 546px; font-size: 20px; position: relative; right: -171px; bottom: 10px;
+        }
+
+
+        .video{
+            text-align: center; position: relative; top:50px;
+        }
+        .tar{
+            position: relative; top:100px; left: 150px; width: 500px;
+        }
+        .tar h1{
+            font-family: 'Tajawal', sans-serif,Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 40px; text-align: right;
+            border-bottom:2px solid #000 ; position: relative; left: 1015px; width: 140px; 
+        }
+        .tar p{
+            font-family: Arial, Helvetica, sans-serif; width: 500px; font-size: 20px; 
+            position: relative; right: -655px; bottom: 20px;
+            text-align: right; font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .tar a button{
+            position:relative; top: 40px; left: 400px; width: 300px; height: 40px; font-size: 20px;
+            background-color: #fd6824 ; border:  none; cursor: pointer ; color: rgb(255, 255, 255);
+        }
+        .all2{
+            position: relative ; bottom: 400px;margin: -7px;height: 0.00000000000000001px;
+         }
+           .bage{
+              height: 55px;
+              position: relative ; top: 49ch;  
+            left:110ch ;  font-family: 'Tajawal', sans-serif,Verdana, Geneva, Tahoma, sans-serif;
+               width: 380px; 
+            }
+           .bage h1 { 
+              width: 250px; height: 45px;
+           text-decoration: none;
+              background-color:  rgb(255, 255, 255) ; border-radius: 10px ;
+              position: relative; top: 10px;
+              font-family: 'Tajawal', sans-serif,Verdana, Geneva, Tahoma, sans-serif;
+              margin-left:125px; 
+              font-size: 24px;
+              text-align: center;   
+              
+            }
+            .bage span{
+               position: relative; bottom: 27px;left:182px;  width: 500px;
+            }
+           
+         
+           .bage a {
+              text-decoration: none ; color: rgb(0, 0, 0);
+           }
+          
+         .lang{
+            height: 200px;position: relative; top: 81ch; background-color: rgb(47, 50, 51);
+          
+           }
+           .lang  span{
+              color: rgb(255, 255, 255); position: relative; top: 48px; left: 11ch;
+         
+           }
+         .lang a{
+            text-decoration: none; color: rgb(255, 255, 255); font-family:Verdana, Geneva, Tahoma, sans-serif;
+            position: relative; top: 50px; left: 8.6ch; 
+            
+         }
+         .lang a:hover{
+            color: rgb(22, 197, 124);
+         }
+         
+         .lang1 a{
+         position: relative;top:3px; left: 1px; color:rgb(22, 197, 124);
+         
+         }
+         /*.lang1 a::after{
+            content: "\25C0"; 
+            width: 50px;
+            height: 50px;
+            color:rgb(20, 149, 172); position: relative;
+            right: 145px;
+            
+         }
+         .lang1 a::before{
+            content: "\25BA"; 
+            width: 50px;
+            height: 50px;
+            color:rgb(20, 149, 172);
+            right: 128px;
+            
+         }*/
+         
+         
+         .bage hr {
+            width: 151ch; position: relative; bottom:20px; right: 992px;
+         }
+         
+         
+         .tel{
+            color: rgb(255, 255, 255); position: relative; top: 530px; left: 138ch;font-family: Arial, Helvetica, sans-serif;
+         }
+         .made{
+            color: rgb(255, 255, 255); position: relative; top: 510px;     left: 123.69999999999999ch;font-family: Arial, Helvetica, sans-serif;
+         }
+         
+         .tel:after{
+            content: "01019153027";
+            position: relative;
+            left: 5px; color: rgb(22, 114, 131);
+         }
+         .made:after{
+            content: "Yahia Ahmed";
+            position: relative;
+            left: 5px; color: rgb(22, 114, 131);
+         }
+         .info{
+            position: relative; top: 430px;  left: 400px; 
+            color: rgb(255, 255, 255);font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px; width: 650px;
+            
+         }
+           
+         
+         .info li{
+            list-style:none; float: left; margin:33px   ;
+         }
+         .info a{
+             color: rgb(255, 255, 255);
+         }
+         .info li:hover{
+             font-size: 21px;
+         }
