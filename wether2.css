@@ -498,7 +498,7 @@ left: 50px; width: 300px; top:30px
    width: 189px; transition: 0.2s;  /*clip-path: circle(69.0% at 50% 50%);*/ border-radius: 15px;
 }
 .img2 img{
-   height: 189px;  background-repeat: no-repeat; 
+   height: 189px; background: url("./globalgoals/background2.png") ; background-repeat: no-repeat; 
    width: 189px; /*clip-path: circle(69.0% at 50% 50%);*/transition: 0.2s;border-radius: 15px;
 }
 
