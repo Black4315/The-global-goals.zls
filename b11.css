@@ -158,7 +158,12 @@ letter-spacing: 0.1rem; transition: 0.4s;
    bottom: 700px; opacity: 1; right: 200px;
 }
 
-
+.login1 button:hover{
+   letter-spacing: 0.1rem; transition: 0.4s;
+   }
+   .sign1 button:hover{
+      letter-spacing: 0.1rem;transition: 0.4s;
+   }
 
 
 
@@ -276,7 +281,7 @@ top:37px;
    
    }
    .l1{
-      color:#00ca65 ;  
+      color:#e5233b;    
    }
    
    
@@ -295,7 +300,7 @@ top:37px;
       text-decoration: none; width: 150px;
    }
    .goalstable1 ul :hover{
-      color: #00ca65 ;
+      color: #e5233b;
    }
    
    
@@ -311,9 +316,9 @@ top:37px;
       }
    .sign1 button{
       width: 80px; height: 35px; 
-      background-color: #18b8d8;
-     
-     
+      background-color: #e5233b;
+      transition: 0.4s;
+     color: white;
         font-size:15px ;
          border: rgb(255, 255, 255);
          border-radius: 10px ;
@@ -323,10 +328,10 @@ top:37px;
    
    .login1 button{
       width: 80px; height: 35px; 
-      background-color: #18b8d8;
+      background-color: #e5233b;
      margin-top: 10px;
-        font-size:15px ;
-        
+        font-size:15px ;transition: 0.4s;
+        color: white;
          border: rgb(255, 255, 255);
          border-radius: 10px ;
          font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -340,7 +345,7 @@ top:37px;
      
       }
       .mencontent .lang11 a:hover{
-      color: #00ca65 ; transition: 0.9s;
+      color: #e5233b; transition: 0.9s;
       }
     
       .mencontent a {
@@ -348,7 +353,7 @@ top:37px;
          text-decoration: none;
       }
       .lang12 a{
-         color: rgb(0, 202, 101) ;
+         color: #e5233b;
       }
       .menfooter .social1{
          margin-top: 20px;
@@ -362,22 +367,22 @@ font-size: 25px; color: rgb(255, 255, 255);
        margin-left: 30px;
        margin-top: 10px;
       }
-      
-.youtube1{
-   background: url("./footer/youtubeb.png"); width: 50px; height: 50px; margin-left: -6px; background-repeat: no-repeat;transition: 0.9s;
-}
-.youtube1:hover{
-   background: url("./footer/youtubebh.png"); background-repeat: no-repeat;transition: 0.9s;
-}
-.facebook1{
-   background: url("./footer/facebook-logo b.png"); width: 50px; height: 50px; background-repeat: no-repeat;transition: 0.9s;
-}
-.facebook1:hover{
-   background: url("./footer/facebook-logo bh.png"); background-repeat: no-repeat;transition: 0.9s;
-}
+ 
+      .youtube1{
+         background: url("./site/b1/footer/youtubeb.png"); width: 50px; height: 50px; margin-left: -6px; background-repeat: no-repeat;transition: 0.9s;
+      }
+      .youtube1:hover{
+         background: url("./site/b1/footer/youtubebh.png"); background-repeat: no-repeat;transition: 0.9s;
+      }
+      .facebook1{
+         background: url("./site/b1/footer/facebook-logo b.png") ;width: 50px; height: 50px; background-repeat: no-repeat;transition: 0.9s;
+      }
+      .facebook1:hover{
+         background: url("./site/b1/footer/facebook-logo bh.png"); background-repeat: no-repeat;transition: 0.9s;
+      }
 .headermen{
    float:right; width:300px ; height: 45px;position: relative;
-   bottom: 600px; opacity: 0; right: 200px;
+   bottom: 800px; opacity: 0; right: 200px;
 }
 
 .men{
@@ -481,7 +486,7 @@ float: right;margin-left: 50px; text-align: left;
 }
 .pov h1{
    font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-CondensedBold,"Helvetica Inserat","Franklin Gothic Condensed",Haettenschweiler,Impact,sans-serif-condensed,sans-serif;
-   border-bottom:2px solid #000 ;    width: 196px; font-size: 40px;
+   border-bottom:2px solid #000 ;    width: 196px; font-size: 40px;white-space: nowrap;
 }
 .pov p{
    font-family: Arial, Helvetica, sans-serif; width: 546px; font-size: 20px; position: relative; bottom: -10px;
@@ -508,7 +513,7 @@ text-align: center;
 .tar h1{
 margin-left:150px ;
    font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-CondensedBold,"Helvetica Inserat","Franklin Gothic Condensed",Haettenschweiler,Impact,sans-serif-condensed,sans-serif;
-   font-size: 40px;
+   font-size: 40px;white-space: nowrap;
    border-bottom:2px solid #000 ; width: 190px;
 }
 .tar p{
@@ -805,6 +810,13 @@ margin-top: 5px;
    .login button{
       width: 60px;transition: 0.9s;
    }
+   .login button:hover{
+      letter-spacing: 0.9999999999px; transition: 0.4s;
+      }
+      .sign button:hover{
+         letter-spacing: 0.9999999999px;transition: 0.4s;
+      }
+     
    .video h1{
       font-size: 38px;
      
@@ -940,14 +952,22 @@ width: 800px;
 }
 @media screen and (max-width: 986px){
 
-.headermen {
-   position: relative;
-   bottom: 490px;
-   opacity: 1;
-   right: -10px;
+   .headermen {
+      position: relative;
+      bottom: 118px;
+      opacity: 1;
+      right: -659px;
+  }
 }
+@media screen and (max-width:969px) {
+   .headermen {
+      position: relative;
+      bottom: 490px;
+      opacity: 1;
+      right: -10px;
+  }
+   
 }
-
 @media screen and (max-width:904px) {
    .img1 {
      transition: 0.9s;
@@ -961,7 +981,17 @@ width: 800px;
       right: -570px;
   }
    
-}@media screen and (max-width: 896px){
+}
+@media screen and (max-width: 896px){
+   .headermen {
+      position: relative;
+      bottom: 115px;
+      opacity: 1;
+      right: -570px;
+  }
+   
+}
+@media screen and (max-width: 891px){
    .headermen {
    position: relative;
    bottom: 492px;
@@ -1327,6 +1357,10 @@ width: 800px;
   
    margin-right: -112px;
 }
+.up {
+   margin-left: 197px;
+   height: 50px;
+}
 }
 
 @media screen and  (max-width:480px){
@@ -1380,7 +1414,7 @@ width: 800px;
   }
 .foall .up .title123 h1 {
 font-size: 23px;
-margin-top: 10px;
+margin-top: 10px; white-space: nowrap;
 }
 .foall .up .title123 span {
 font-size: 11px;
@@ -1485,19 +1519,19 @@ font-size: 19px;transition: 0.9s;
   
  
 }
-.up .title {
+.foall .up .title123 {
   
    margin-top: -10px;   
    background-color: rgb(40, 42, 43); 
 
-      margin-left: 41px;
+      margin-left: -15px;
     color: #ffffff;
 }
-.up .title h1 {
+.foall.up .title123 h1 {
   font-size: 20px;
    white-space: nowrap;
 }
-.up .title span {
+.foall .up .title123 span {
     font-size: 10px;
 }
 
@@ -1529,53 +1563,45 @@ font-size: 19px;transition: 0.9s;
       left: -35px;
    }
    .title{
-      bottom: -10px; right: 56px;
-   }
-  .vidiv{
-   position: relative;
-   right: 24px;
-   bottom: 471px;
-  }
-  .video h1 {
-      font-size: 20px;
-      width: 150px;
-      left: 201px;transition: 0.9s;
-     top: 78px;
-   }
-   .video button {
-      width: 104px;transition: 0.9s; height: 37px;
-   }.video a {
-      top: 220px;
-      left: 109px;}
-
-   
-       .video p {
-          
-         width: 120px;
-         left: 214px;
-      }
-   .imggol {
-      
-      position: relative;
-      right: 55px;transition: 0.9s;
-      width:57px; top: 15px;
-   }
-   .title span {
-      font-size: 10px;
+      bottom: -10px; right: 21px;
    }
    .title h1 {
-      font-size: 18px;
-   }
+      font-size: 21px;
+      width: 149px;
+  }
+  .foall .up .lang {
+   width: 77px;
+}
+  .pro h1 {
+   position: relative;
+   top: -103px;
+   font-size: 50px;transition: 0.9s;
+}
+.card {
+  
+   right: 104px;
+   transition: 0.9s;
+}
+.pro::before {
+   content: "1";
+   position: relative;
+   right: 86px;
+   top: 31px;
+   font-weight: 600;
+   color: rgb(78, 25, 25);
+   font-size: 130px;transition: 0.9s;
+   font-family: 'CombiNumerals Ltd', sans-serif;
+}
    .secound-explain iframe {
       width: 295px;
       height: 246px;
   }  
-  .up a {
+  .foall .up a {
   
    font-size: 12px;
  margin-top: 5px;
 } 
-   .up .lang1{
+   .foall .up .lang1{
 font-size: 12px; margin-top: 5px;
  
 } 
@@ -1588,6 +1614,9 @@ font-size: 12px; margin-top: 5px;
 .img1 {
     transition: 0.9s;
     width: 182px;
+}
+.headermen {
+   right: -191px;
 }
 }
 @media screen and (max-width:365px){
@@ -1604,11 +1633,46 @@ font-size: 12px; margin-top: 5px;
 .about ul {
  margin-left: -2px;
 }
+.pov h1 {
+   width: 176px;
+   font-size: 35px;
 }
+.pov p {
+   width: 241px;
+   font-size: 13px;
+}
+.first-explain .pov {
+   margin-left: -11px;
+   
+}
+.tar h1 {
+   font-size: 35px;
+   width: 171px;
+}
+
+.tar p {
+    width: 193px;
+    font-size: 14px;
+}
+.tar {
+   transition: 0.9s;
+ 
+   margin-left: -104px;
+}
+.donate a button {
+   width: 249px;
+}
+.p p {
+   width: 245px;
+}}
 @media screen and (max-width:355.5px){
    .footer {
       height: 665px;
   }
+  .img1 {
+   transition: 0.9s;
+   width: 200px;
+}
 }
 @media screen and  (max-width:337px){
    .down .thegloabal h3 {
@@ -1621,20 +1685,9 @@ font-size: 12px; margin-top: 5px;
    @media screen and  (max-width:345px){
       
          .title{
-            bottom: -10px; right: 37px;
+            bottom: -10px; right: 21px;
          }
-         .imggol {
-            
-            position: relative;
-            right: 37px;transition: 0.9s;
-            width:57px; top: 15px;
-         }
-         .title span {
-            font-size: 10px;
-         }
-         .title h1 {
-            font-size: 18px;
-         }
+       
          .secound-explain iframe {
             width: 258px;
             height: 203px;
@@ -1649,10 +1702,10 @@ font-size: 12px; margin-top: 5px;
     
       margin-left: -16px;
   }
-  .up .title {
+  .foall .up .title123 {
   
    background-color: rgb(40, 42, 43);
-   margin-left: 27px;
+   margin-left: -45px;
   }
   .footer {
    height: 735px;
@@ -1667,8 +1720,35 @@ font-size: 12px; margin-top: 5px;
 
       }
 
-
+@media screen  and (max-width:325px){
+   
+   .img1 {
+      height: 0px;
+      width: 0px;
+  
+      position: relative;
+      bottom: 600px;
+      left: 10px;
+     
+  }
+  .seul {
+ 
+   transition: 0s;
+   width: 0%;
+   right: 463px;
+   left: -113px;
+}
+  .headermen {
+   position: relative;
+   bottom: 118px;
+   right: -6px;
+}
+}
 @media screen and  (max-width:300px){
+   .p p {
+      width: 202px;
+      font-size: 18px;
+  }
    .men svg {
       
       
@@ -1746,11 +1826,11 @@ font-size: 12px; margin-top: 5px;
 .about ul {
    margin-left: -28px;
 }
-.up a {
+.foall .up a {
    font-size: 9px;
    margin-top: 8px;
 }
-.up .lang {
+ .foall .up .lang {
    margin-left: -16px;
    margin-top: 26px;
 }

@@ -1,0 +1,365 @@
+
+.start{
+    height: 45px; 
+      font-family:Arial, Helvetica, sans-serif;
+       padding: 20px;
+       background-color: rgb(46, 86, 172);   position: relative; margin: -8px;
+   
+    }
+    
+    .start  h1{
+        width: 187px; height: 30px;
+     text-decoration: none;
+        background-color:  rgb(255, 255, 255) ;
+        right: 38px;
+         color:rgb(0, 0, 0); 
+         position: relative; 
+         bottom: 10px;
+          margin-left:125px; 
+          font-size: 25px;
+          transition: 0.10s;
+          text-align: center;   
+          font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-CondensedBold,"Helvetica Inserat","Franklin Gothic Condensed",Haettenschweiler,Impact,sans-serif-condensed,sans-serif;
+          border: 2px solid black;
+    }
+
+    .start h1::before{
+        content:"\02C2" ; opacity: 1;
+        position: relative ; right: 3px;transition: 0.10s; top: 1px;
+
+    }
+    .start h1:hover::before{
+        right: 5px;transition: 0.10s;
+       
+    }
+    .start h1:hover{
+        background-color: rgb(231, 230, 230); transition: 0.10s;
+    }
+
+
+    
+    .start span{
+    
+        position: relative;bottom: 5.7ch; left: 77px; color: rgb(48, 48, 48); 
+        border-radius:10px ; 
+    }
+ 
+    
+        .start a{text-decoration: none; }
+    
+    .start ul {
+    color: rgb(255, 255, 255);
+        height: 50px; color: rgb(3, 3, 3); 
+        list-style: none; 
+        position: relative; 
+        right:532px; bottom:70px;
+        float: right;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    }
+    
+    
+    .start li {
+         color: rgb(255, 255, 255);
+        margin-right: 30px; 
+        float: left; font-size: 20px; text-align: center;
+        cursor: pointer; 
+    
+    }
+    
+    .start ul :hover{
+        height: 45px; border-bottom:2px solid rgb(0, 0, 0);
+    }
+    .start a li{
+        color: black;
+     }
+          
+.l{
+    color: black;  height: 45px;  border-bottom:2px solid rgb(0, 0, 0);
+ }
+    .start hr{
+       position: relative; bottom: 9.7ch; width: 1390px; border: rgb(255, 255, 255) solid 1px;
+    }
+    
+    .sign button{
+        width: 80px; height: 35px; 
+        background-color: rgb(62, 156, 50);
+         position: relative;
+          float: right; 
+          LEFT :435px;
+          bottom: 55px;
+           border: rgb(255, 255, 255);
+           border-radius: 10px ;
+           font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           cursor: pointer; 
+           font-size: 15px;color: rgb(255, 255, 255);
+    }
+    
+    .login button{
+        width: 80px; height: 35px; 
+        background-color: rgb(62, 156, 50);
+                 position: relative;
+          float: right; 
+          left: 605px;
+          bottom: 55px;
+           border: rgb(255, 255, 255);
+           border-radius: 10px ;
+           font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           cursor: pointer; 
+           font-size: 15px;color: rgb(255, 255, 255);
+
+    }
+    
+    
+    
+     .search{
+         height: 50px; 
+        /* background:linear-gradient(90deg, #000000 0% ,rgb(126, 11, 11) 0% ,rgb(0, 60, 255) 100%); */
+        width: 350px;   text-align: center;
+         border-radius: 60px;  position: relative; bottom:55px ;  left: 106ch;  
+         
+     }
+    .search input{
+       width: 300px; height: 30px;  position: relative; top: 2.3px;  
+        border-radius: 10px;;font-family: Arial, Helvetica, sans-serif; border: rgb(136, 135, 135) solid ;
+        font-size: 17px;
+    }
+    
+    .search button {
+       border-radius: 10px; border: rgb(136, 135, 135) solid ;height: 30px; width:45px ; background-color: rgb(255, 255, 255);
+       cursor: pointer; position: relative;   top: 13px;  
+    }
+    
+    .search button img{
+      width: 45px; position: relative; right: 9px; bottom: 2px; 
+    }
+
+    .safe{
+        background-color: rgb(46, 86, 172); height: 450px; position: relative; bottom: 69px; margin: -8px;
+    }
+    .how{
+        position: relative;    top: 50px; left: 50px;  margin: 10px;width: 508px; 
+
+    }
+    .how h1{
+        border-bottom: 2px solid rgb(255, 255, 255); width: 338px; position: relative; font-size: 50px; color: white;
+        font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-CondensedBold,"Helvetica Inserat","Franklin Gothic Condensed",Haettenschweiler,Impact,sans-serif-condensed,sans-serif;
+
+    }
+    .how p{
+        font-family: Arial, Helvetica, sans-serif; width: 508px; font-size: 25px;position: absolute; color: white;  bottom: -206px;
+    }
+    
+
+    .ima{
+        height: 0.000001px; width:0.00000001px; 
+    }
+    .img6{
+        height: 189px; background: url("../globalgoals/Background6.png") ; position: relative; top:10px;left: 634px; background-repeat: no-repeat;
+        width: 189px;  /*clip-path: circle(69.0% at 50% 50%);*/transition: 0.2s;border-radius: 15px;
+        
+     }
+     .img13{
+        height: 189px; background: url("../globalgoals/Background13.png") ; position: relative; top: -179px;left: 858px; background-repeat: no-repeat;
+        width: 189px;  /*clip-path: circle(69.0% at 50% 50%);*/transition: 0.2s;border-radius: 15px;
+        
+     }
+     .img15{
+        height: 189px; background: url("../globalgoals/Background15.png") ; position: relative; top:-367px;left: 1084px; background-repeat: no-repeat;
+        width: 189px;  /*clip-path: circle(69.0% at 50% 50%);*/transition: 0.2s;border-radius: 15px;
+        
+     }
+     .img6:hover{
+        filter: drop-shadow(0 0 0.75rem rgb(73, 71, 72));transition: 0.2s;
+      }
+      .img13:hover{
+        filter: drop-shadow(0 0 0.75rem rgb(73, 71, 72));transition: 0.2s;
+      }
+      .img15:hover{
+        filter: drop-shadow(0 0 0.75rem rgb(73, 71, 72));transition: 0.2s;
+      }
+
+
+      .zz{
+         border: black solid 1px; position: relative; top: 350px;
+      }
+
+      .wa{
+          position: relative ; bottom: 20px;margin: 15px; height: 5px;
+    
+      }
+          .wa h1{
+            font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-CondensedBold,"Helvetica Inserat","Franklin Gothic Condensed",Haettenschweiler,Impact,sans-serif-condensed,sans-serif;
+  font-size: 40px; border-bottom: 2px solid black; width: 480px;
+          }  
+          .wa p{
+            font-size: 20px;width: 700px;font-family: Arial, Helvetica, sans-serif; position: relative; bottom: 20px;
+          }
+          .wa hr{
+            border: black solid 1px;position: relative; bottom: 190px;
+          }
+
+.img66{
+    height: 189px; background: url("../globalgoals/Background6.png") ; position: relative; top:-211px; background-repeat: no-repeat;
+    width: 189px;  /*clip-path: circle(69.0% at 50% 50%);*/transition: 0.2s;border-radius: 15px;left: 1057px;
+    filter: drop-shadow(0 0 0.75rem rgb(73, 71, 72));transition: 0.2s;
+}
+
+
+.cli{
+    position: relative ; bottom: -261px; margin: 15px; height: 5px;
+
+}
+.cli h1{
+    font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-CondensedBold,"Helvetica Inserat","Franklin Gothic Condensed",Haettenschweiler,Impact,sans-serif-condensed,sans-serif;
+font-size: 40px; border-bottom: 2px solid black; width: 270px;
+  }  
+  .cli p{
+    font-size: 20px;width: 800px;font-family: Arial, Helvetica, sans-serif; position: relative; bottom: 20px;
+  }
+.img131{
+    height: 189px; background: url("../globalgoals/Background13.png") ; position: relative; top:-222px; background-repeat: no-repeat;
+    width: 189px;  /*clip-path: circle(69.0% at 50% 50%);*/transition: 0.2s;border-radius: 15px;left: 1057px;
+    filter: drop-shadow(0 0 0.75rem rgb(73, 71, 72));transition: 0.2s;
+}
+.cli hr{
+    border: black solid 1px; position: relative; bottom: 190px;
+  }
+
+
+
+  
+.la{
+    position: relative ;    bottom: -541px;  margin: 15px; height: 5px;
+}
+.la h1{
+    font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-CondensedBold,"Helvetica Inserat","Franklin Gothic Condensed",Haettenschweiler,Impact,sans-serif-condensed,sans-serif;
+font-size: 40px; border-bottom: 2px solid black; width: 270px;
+  }  
+  .la p{
+    font-size: 20px;width: 900px;font-family: Arial, Helvetica, sans-serif; position: relative; bottom: 20px;
+  }
+.img151{
+    height: 189px; background: url("../globalgoals/Background15.png") ; position: relative; top:-310px; background-repeat: no-repeat;
+    width: 189px;  /*clip-path: circle(69.0% at 50% 50%);*/transition: 0.2s;border-radius: 15px;left: 1057px;
+    filter: drop-shadow(0 0 0.75rem rgb(73, 71, 72));transition: 0.2s;
+}
+
+
+
+      .all1{
+        position: relative ; bottom:-456px; margin: -8px;height: 0.00000000000000000000001px;
+     }
+       .bage{
+          height: 55px;
+          position: relative ; top: 49ch;  
+          right: 90px; font-family: Arial, Helvetica, sans-serif;  
+           width: 380px; 
+        }
+       .bage h1 { 
+          width: 250px; height: 45px;
+       text-decoration: none;
+          background-color:  rgb(255, 255, 255) ; border-radius: 10px ;
+          position: relative; top: 10px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-left:125px; 
+          font-size: 25px;
+          text-align: center;   
+          
+        }
+        .bage span{
+           position: relative; bottom: 27px;left:132px;  width: 500px;
+        }
+        .bage img{
+      position: relative; bottom: 80px; left: 23px;
+        }
+     
+       .bage a {
+          text-decoration: none ; color: rgb(0, 0, 0);
+       }
+      
+     .lang{
+        height: 200px;position: relative; top: 80ch; background-color: rgb(47, 50, 51);
+      
+       }
+       .lang  span{
+          color: rgb(255, 255, 255); position: relative; top: 48px; left: 155.7ch;
+     
+       }
+     .lang a{
+        text-decoration: none; color: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif;
+        position: relative; top: 50px; left: 140ch;
+     }  
+     
+        .lang a:hover{
+           color: rgb(22, 197, 124);}
+        .iconlang{
+           content: none;
+           background: url("./back/images\ \(13\).png"); height: 100px; width: 100px;
+        }
+     .all1 hr {
+        width: 169ch; position: relative; bottom: 25px;
+     }
+     
+     
+     .lang1 a{
+        position: relative;top:3px; left: 1px; color:rgb(255, 255, 255);
+        color: rgb(22, 197, 124);
+        
+        }
+        /*.lang1 a::before{
+           content: "\25C0"; 
+           width: 50px;
+           height: 50px;
+           color: rgb(22, 197, 124);; position: relative;
+           right: 2px;
+           
+        }
+        .lang1 a::after{
+           content: "\25BA"; 
+           width: 50px;
+           height: 50px;
+           color: rgb(22, 197, 124);;
+           
+           
+        }*/
+     
+     .tel{
+        color: rgb(255, 255, 255); position: relative; top: 540px; left: 138ch;font-family: Arial, Helvetica, sans-serif;
+     }
+     .made{
+        color: rgb(255, 255, 255); position: relative; top: 520px; left: 120.7ch;font-family: Arial, Helvetica, sans-serif;
+     }
+     
+     .tel:after{
+        content: "01019153027";
+        position: relative;
+        left: 5px; color: rgb(22, 114, 131);
+     }
+     .made:after{
+        content: "Yahia Ahmed";
+        position: relative;
+        left: 5px; color: rgb(22, 114, 131);
+     }
+     .info{
+        position: relative; top: 400px;  left: 400px; 
+        color: rgb(255, 255, 255);font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px; width: 650px;
+        
+     }.info li{
+        list-style:none; float: left; margin:33px   ;
+     }
+     .info a{
+         color: rgb(255, 255, 255);
+     }
+     .info li:hover{
+         font-size: 21px;
+     }
+     .don{
+         position: relative ; top: 999px; left: 550px;
+     }
+     .don button{
+        width: 300px; height: 40px; font-size: 20px;
+        background: rgb(34,152,182);
+        background: linear-gradient(90deg, rgba(34,152,182,1) 0%, rgba(50,103,56,1) 49%, rgba(79,173,38,1) 100%); border:  none; cursor: pointer ; color: rgb(255, 255, 255);
+     }
