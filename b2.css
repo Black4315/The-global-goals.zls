@@ -686,7 +686,7 @@ margin-top: 5px;
    }
    
 .goalstable li {
-   margin-right: 20px; transition: 0.9s;
+   margin-right: 20px; 
   
 }
 }
@@ -694,7 +694,7 @@ margin-top: 5px;
    .goalstable li {
       margin-right: 15px; 
       
-      transition: 0.9s;
+     
    }
   .search{
       position: relative; left: 240px;transition: 0.9s;
@@ -711,7 +711,7 @@ margin-top: 5px;
    .goalstable li {
       margin-right: 15px; 
       font-size: 18px;
-      transition: 0.9s;
+     
    }
    .goalstable {
       position: relative;  top:19px;transition: 0.9s;
@@ -1590,12 +1590,12 @@ font-size: 19px;transition: 0.9s;
    transition: 0.9s;
 }
 .pro::before {
-   content: "1";
+ 
    position: relative;
    right: 86px;
    top: 31px;
    font-weight: 600;
-   color: rgb(78, 25, 25);
+ 
    font-size: 130px;transition: 0.9s;
    font-family: 'CombiNumerals Ltd', sans-serif;
 }
