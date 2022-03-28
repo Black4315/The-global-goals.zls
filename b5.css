@@ -983,12 +983,11 @@ width: 800px;
 
 }
 @media screen and (max-width: 986px){
-
    .headermen {
       position: relative;
-      bottom: 118px;
+      bottom: 492px;
       opacity: 1;
-      right: -659px;
+      right: 0px;
   }
 }
 @media screen and (max-width:969px) {
@@ -1017,9 +1016,9 @@ width: 800px;
 @media screen and (max-width: 896px){
    .headermen {
       position: relative;
-      bottom: 115px;
+      bottom: 492px;
       opacity: 1;
-      right: -570px;
+      right: 0px;
   }
    
 }
