@@ -401,16 +401,16 @@ font-size: 25px; color: rgb(255, 255, 255);
       }
  
       .youtube1{
-         background: url("./site/b15/footer/youtubeb.png"); width: 50px; height: 50px; margin-left: -6px; background-repeat: no-repeat;transition: 0.4s;
+         background: url("../site/b15/footer/youtubeb.png"); width: 50px; height: 50px; margin-left: -6px; background-repeat: no-repeat;transition: 0.4s;
       }
       .youtube1:hover{
-         background: url("./site/b15/footer/youtubebh.png"); background-repeat: no-repeat;transition: 0.4s;
+         background: url("../site/b15/footer/youtubebh.png"); background-repeat: no-repeat;transition: 0.4s;
       }
       .facebook1{
-         background: url("./site/b15/footer/facebook-logo b.png") ;width: 50px; height: 50px; background-repeat: no-repeat;transition: 0.4s;
+         background: url("../site/b15/footer/facebook-logo b.png") ;width: 50px; height: 50px; background-repeat: no-repeat;transition: 0.4s;
       }
       .facebook1:hover{
-         background: url("./site/b15/footer/facebook-logo bh.png"); background-repeat: no-repeat;transition: 0.4s;
+         background: url("../site/b15/footer/facebook-logo bh.png"); background-repeat: no-repeat;transition: 0.4s;
       }
 .headermen{
    float:right; width:300px ; height: 45px;position: relative;
@@ -455,7 +455,7 @@ font-size: 25px; color: rgb(255, 255, 255);
 .img1{    
    height: 486px;
    width: 650px;
-   background: url(./site/b15/39819.png);
+   background: url(../site/b15/39819.png);
    background-repeat: no-repeat;
      position: relative; 
      bottom: 16px;
@@ -505,7 +505,7 @@ text-align: center;
 }
 .first-explain .background{
    
-   height:189px ; width: 189px; background:url("./site/b15/background15.png") ; 
+   height:189px ; width: 189px; background:url("../site/b15/background15.png") ; 
    filter: drop-shadow(0 0 0.75rem rgb(73, 71, 72)); 
    border-radius:15px ;
   
@@ -644,23 +644,23 @@ margin-top: 5px;
 }
 
 .youtube{
-   background: url("./site/b15/footer/youtubeb.png"); width: 50px; height: 50px; margin-left: 21px; background-repeat: no-repeat;transition: 0.4s;
+   background: url("../site/b15/footer/youtubeb.png"); width: 50px; height: 50px; margin-left: 21px; background-repeat: no-repeat;transition: 0.4s;
 }
 .youtube:hover{
-   background: url("./site/b15/footer/youtubebh.png"); background-repeat: no-repeat;transition: 0.4s;
+   background: url("../site/b15/footer/youtubebh.png"); background-repeat: no-repeat;transition: 0.4s;
 }
 .facebook{
-   background: url("./site/b15/footer/facebook-logo\ b.png"); width: 50px; height: 50px; background-repeat: no-repeat;transition: 0.4s;
+   background: url("../site/b15/footer/facebook-logo\ b.png"); width: 50px; height: 50px; background-repeat: no-repeat;transition: 0.4s;
 }
 .facebook:hover{
-   background: url("./site/b15/footer/facebook-logo\ bh.png"); background-repeat: no-repeat;transition: 0.4s;
+   background: url("../site/b15/footer/facebook-logo\ bh.png"); background-repeat: no-repeat;transition: 0.4s;
 }
 .Tel{
    color: white; font-family: Arial, Helvetica, sans-serif; float: right;  
 }
 .teel{
    content: ".";
-   background: url("./footer/tel.png");
+   background: url("../footer/tel.png");
    width: 106px;
    height: 22px;
    background-repeat: no-repeat;
@@ -674,7 +674,7 @@ margin-top: 5px;
 }
 .madee{
    content: ".";
-   background: url("./footer/made.png");
+   background: url("../footer/made.png");
    width: 119px;
    height: 22px;
    background-repeat: no-repeat;

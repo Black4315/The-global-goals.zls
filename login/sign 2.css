@@ -1,13 +1,16 @@
 body{
     background-color: #18b5d5; background: linear-gradient(130deg, #000000 0%,#18b5d5 0% ,#dd54a4 110%); 
-    height: 771px;
+    height: 100vh;    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
 
 
 .log{
-    height: 500px; width: 550px; background-color: rgb(255, 255, 255);  text-align: center; position: relative; 
-    left: 420px;top: 100px; border-radius:15px ; filter: drop-shadow(0 0 0.73rem rgb(68, 67, 67));
+    height: 500px; width: 550px; background-color: rgb(255, 255, 255);  text-align: center;
+ border-radius:15px ; filter: drop-shadow(0 0 0.73rem rgb(68, 67, 67));
 }
 .log img{
 width: 100px; position: relative; top:10px

@@ -1,365 +1,1465 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
 
-.start{
-    height: 45px; 
-      font-family:Arial, Helvetica, sans-serif;
-       padding: 20px;
-       background-color: rgb(46, 86, 172);   position: relative; margin: -8px;
-   
-    }
-    
-    .start  h1{
-        width: 187px; height: 30px;
-     text-decoration: none;
-        background-color:  rgb(255, 255, 255) ;
-        right: 38px;
-         color:rgb(0, 0, 0); 
-         position: relative; 
-         bottom: 10px;
-          margin-left:125px; 
-          font-size: 25px;
-          transition: 0.10s;
-          text-align: center;   
-          font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-CondensedBold,"Helvetica Inserat","Franklin Gothic Condensed",Haettenschweiler,Impact,sans-serif-condensed,sans-serif;
-          border: 2px solid black;
-    }
+::-webkit-scrollbar {
+  width: 16px; height: 16px;
+}
 
-    .start h1::before{
-        content:"\02C2" ; opacity: 1;
-        position: relative ; right: 3px;transition: 0.10s; top: 1px;
+::-webkit-scrollbar-thumb {
+background-color: rgb(90, 90, 90);
+border-radius: 20px;
+border:4px  solid transparent;
+background-clip:content-box ;
+height: 50px;
 
-    }
-    .start h1:hover::before{
-        right: 5px;transition: 0.10s;
-       
-    }
-    .start h1:hover{
-        background-color: rgb(231, 230, 230); transition: 0.10s;
-    }
+}
+::-webkit-scrollbar-thumb:hover {
+background-color: rgb(129, 129, 129);
 
+}
 
-    
-    .start span{
-    
-        position: relative;bottom: 5.7ch; left: 77px; color: rgb(48, 48, 48); 
-        border-radius:10px ; 
-    }
- 
-    
-        .start a{text-decoration: none; }
-    
-    .start ul {
-    color: rgb(255, 255, 255);
-        height: 50px; color: rgb(3, 3, 3); 
-        list-style: none; 
-        position: relative; 
-        right:532px; bottom:70px;
-        float: right;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-    }
-    
-    
-    .start li {
-         color: rgb(255, 255, 255);
-        margin-right: 30px; 
-        float: left; font-size: 20px; text-align: center;
-        cursor: pointer; 
-    
-    }
-    
-    .start ul :hover{
-        height: 45px; border-bottom:2px solid rgb(0, 0, 0);
-    }
-    .start a li{
-        color: black;
-     }
-          
-.l{
-    color: black;  height: 45px;  border-bottom:2px solid rgb(0, 0, 0);
+@media screen and (max-width:380px) {
+
+  ::-webkit-scrollbar {
+     width: 6px;
+     height: 6px;
  }
-    .start hr{
-       position: relative; bottom: 9.7ch; width: 1390px; border: rgb(255, 255, 255) solid 1px;
-    }
-    
-    .sign button{
-        width: 80px; height: 35px; 
-        background-color: rgb(62, 156, 50);
-         position: relative;
-          float: right; 
-          LEFT :435px;
-          bottom: 55px;
-           border: rgb(255, 255, 255);
-           border-radius: 10px ;
-           font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-           cursor: pointer; 
-           font-size: 15px;color: rgb(255, 255, 255);
-    }
-    
-    .login button{
-        width: 80px; height: 35px; 
-        background-color: rgb(62, 156, 50);
-                 position: relative;
-          float: right; 
-          left: 605px;
-          bottom: 55px;
-           border: rgb(255, 255, 255);
-           border-radius: 10px ;
-           font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-           cursor: pointer; 
-           font-size: 15px;color: rgb(255, 255, 255);
-
-    }
-    
-    
-    
-     .search{
-         height: 50px; 
-        /* background:linear-gradient(90deg, #000000 0% ,rgb(126, 11, 11) 0% ,rgb(0, 60, 255) 100%); */
-        width: 350px;   text-align: center;
-         border-radius: 60px;  position: relative; bottom:55px ;  left: 106ch;  
-         
-     }
-    .search input{
-       width: 300px; height: 30px;  position: relative; top: 2.3px;  
-        border-radius: 10px;;font-family: Arial, Helvetica, sans-serif; border: rgb(136, 135, 135) solid ;
-        font-size: 17px;
-    }
-    
-    .search button {
-       border-radius: 10px; border: rgb(136, 135, 135) solid ;height: 30px; width:45px ; background-color: rgb(255, 255, 255);
-       cursor: pointer; position: relative;   top: 13px;  
-    }
-    
-    .search button img{
-      width: 45px; position: relative; right: 9px; bottom: 2px; 
-    }
-
-    .safe{
-        background-color: rgb(46, 86, 172); height: 450px; position: relative; bottom: 69px; margin: -8px;
-    }
-    .how{
-        position: relative;    top: 50px; left: 50px;  margin: 10px;width: 508px; 
-
-    }
-    .how h1{
-        border-bottom: 2px solid rgb(255, 255, 255); width: 338px; position: relative; font-size: 50px; color: white;
-        font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-CondensedBold,"Helvetica Inserat","Franklin Gothic Condensed",Haettenschweiler,Impact,sans-serif-condensed,sans-serif;
-
-    }
-    .how p{
-        font-family: Arial, Helvetica, sans-serif; width: 508px; font-size: 25px;position: absolute; color: white;  bottom: -206px;
-    }
-    
-
-    .ima{
-        height: 0.000001px; width:0.00000001px; 
-    }
-    .img6{
-        height: 189px; background: url("../globalgoals/Background6.png") ; position: relative; top:10px;left: 634px; background-repeat: no-repeat;
-        width: 189px;  /*clip-path: circle(69.0% at 50% 50%);*/transition: 0.2s;border-radius: 15px;
-        
-     }
-     .img13{
-        height: 189px; background: url("../globalgoals/Background13.png") ; position: relative; top: -179px;left: 858px; background-repeat: no-repeat;
-        width: 189px;  /*clip-path: circle(69.0% at 50% 50%);*/transition: 0.2s;border-radius: 15px;
-        
-     }
-     .img15{
-        height: 189px; background: url("../globalgoals/Background15.png") ; position: relative; top:-367px;left: 1084px; background-repeat: no-repeat;
-        width: 189px;  /*clip-path: circle(69.0% at 50% 50%);*/transition: 0.2s;border-radius: 15px;
-        
-     }
-     .img6:hover{
-        filter: drop-shadow(0 0 0.75rem rgb(73, 71, 72));transition: 0.2s;
-      }
-      .img13:hover{
-        filter: drop-shadow(0 0 0.75rem rgb(73, 71, 72));transition: 0.2s;
-      }
-      .img15:hover{
-        filter: drop-shadow(0 0 0.75rem rgb(73, 71, 72));transition: 0.2s;
-      }
-
-
-      .zz{
-         border: black solid 1px; position: relative; top: 350px;
-      }
-
-      .wa{
-          position: relative ; bottom: 20px;margin: 15px; height: 5px;
-    
-      }
-          .wa h1{
-            font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-CondensedBold,"Helvetica Inserat","Franklin Gothic Condensed",Haettenschweiler,Impact,sans-serif-condensed,sans-serif;
-  font-size: 40px; border-bottom: 2px solid black; width: 480px;
-          }  
-          .wa p{
-            font-size: 20px;width: 700px;font-family: Arial, Helvetica, sans-serif; position: relative; bottom: 20px;
-          }
-          .wa hr{
-            border: black solid 1px;position: relative; bottom: 190px;
-          }
-
-.img66{
-    height: 189px; background: url("../globalgoals/Background6.png") ; position: relative; top:-211px; background-repeat: no-repeat;
-    width: 189px;  /*clip-path: circle(69.0% at 50% 50%);*/transition: 0.2s;border-radius: 15px;left: 1057px;
-    filter: drop-shadow(0 0 0.75rem rgb(73, 71, 72));transition: 0.2s;
-}
-
-
-.cli{
-    position: relative ; bottom: -261px; margin: 15px; height: 5px;
+ ::-webkit-scrollbar-thumb {
+     background-color: rgb(90, 90, 90);
+     border-radius: 20px;
+     border: 1px solid transparent;
+     background-clip: content-box;
+     height: 50px;
+ }
 
 }
-.cli h1{
-    font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-CondensedBold,"Helvetica Inserat","Franklin Gothic Condensed",Haettenschweiler,Impact,sans-serif-condensed,sans-serif;
-font-size: 40px; border-bottom: 2px solid black; width: 270px;
-  }  
-  .cli p{
-    font-size: 20px;width: 800px;font-family: Arial, Helvetica, sans-serif; position: relative; bottom: 20px;
-  }
-.img131{
-    height: 189px; background: url("../globalgoals/Background13.png") ; position: relative; top:-222px; background-repeat: no-repeat;
-    width: 189px;  /*clip-path: circle(69.0% at 50% 50%);*/transition: 0.2s;border-radius: 15px;left: 1057px;
-    filter: drop-shadow(0 0 0.75rem rgb(73, 71, 72));transition: 0.2s;
+
+.header{
+   background-color: rgb(46, 86, 172);
+  height: 60px;
+  padding: 10px;   
 }
-.cli hr{
-    border: black solid 1px; position: relative; bottom: 190px;
-  }
-
-
-
+.header hr{
+   position: relative;bottom: 61px; width: 100%;
+}
+.container{
+  text-align: center;
+   margin: auto; 
   
-.la{
-    position: relative ;    bottom: -541px;  margin: 15px; height: 5px;
 }
-.la h1{
-    font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-CondensedBold,"Helvetica Inserat","Franklin Gothic Condensed",Haettenschweiler,Impact,sans-serif-condensed,sans-serif;
-font-size: 40px; border-bottom: 2px solid black; width: 270px;
-  }  
-  .la p{
-    font-size: 20px;width: 900px;font-family: Arial, Helvetica, sans-serif; position: relative; bottom: 20px;
+.start {
+   font-family: Arial, Helvetica, sans-serif;
+  
+}
+.start div{
+  display: inline-block;
+}
+.start a {
+   text-decoration: none; color: #000;
+}
+
+.ti{
+      color: rgb(0, 0, 0);
+      width:25%;    white-space: nowrap;
+      height: 65px;
+      font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-CondensedBold,"Helvetica Inserat","Franklin Gothic Condensed",Haettenschweiler,Impact,sans-serif-condensed,sans-serif;;
+      text-align: center; float: left;
+    
+   }
+   .tiaim a{
+      color: rgb(0, 0, 0); height: 0px; text-decoration: none;
+   
+   }
+   .ti .title  h1{
+      width: 187px;
+      height: 30px;
+   text-decoration: none;
+      background-color:  rgb(255, 255, 255) ;
+      border: 2px solid black;
+       color:rgb(0, 0, 0); 
+    margin-left: 28px;
+    margin-top: 12px;
+        font-size: 25px;
+        transition: 0.10s;
+        text-align: center;   
+        font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-CondensedBold,"Helvetica Inserat","Franklin Gothic Condensed",Haettenschweiler,Impact,sans-serif-condensed,sans-serif;
+   }
+   
+   .ti .title h1::before{
+      content:"\02C2" ; opacity: 1;
+      position: relative ; right: 3px;transition: 0.10s; top: 1px;
+   
+   }
+   .ti .title h1:hover::before{
+      right: 5px;transition: 0.10s;
+     
+   }
+   .ti .title h1:hover{
+      background-color: rgb(231, 231, 231); transition: 0.10s;
+   }
+   .seul{
+      width: 55%;     height: 65px;
+   } 
+   .search {
+      position: relative; left: 274px;    bottom: 49px;
+   }
+   .search input{
+      font-size:15px ;
+      width: 300px; height: 30px;  position: relative; top: 2.3px;  
+       border-radius: 10px; font-family:Arial, Helvetica, sans-serif; border: rgb(136, 135, 135) solid 
+   }
+   
+   .search  button{
+      border-radius: 10px; border: rgb(136, 135, 135) solid ;height: 30px; width:45px ; background-color: rgb(255, 255, 255);
+      cursor: pointer;position: relative;   top: 13px;
+   }
+   .search  button img{
+     width: 45px; position: relative; right: 2px; bottom: 1px;
+      }
+      
+      .goalstable{
+   font-family: Arial, Helvetica, sans-serif; position: relative; right:135px;     top: 16px;
+      }
+   
+      .goalstable ul {
+       height: 50px; color: #ffffff; 
+       list-style: none; 
+     
+       float: right;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+   }
+   .l{
+      color: black;  height: 47px;  border-bottom:2px solid rgb(0, 0, 0);
+   }
+   
+   
+   .goalstable li {
+       margin-right: 30px; 
+       float: left; font-size: 20px; text-align: center;
+       cursor: pointer;
+   
+   }
+   .goalstable a li{
+      color: black;
+   }
+   
+   .start ul :hover{
+       height: 47px; border-bottom:2px solid rgb(0, 0, 0);
+   }
+   
+   
+   
+      .loga{
+         width: 20%;float: right;height: 65px;
+      } 
+      
+   .sign button{
+      width: 80px; height: 35px; 
+      background-color: rgb(62, 156, 50);
+             position: relative;
+        float: right; 
+        LEFT :16px;
+        font-size:15px ;
+         bottom: -15px;
+         border: rgb(255, 255, 255);
+         border-radius: 10px ;
+         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         cursor: pointer; transition: 0.4s;
+   }
+   
+   .login button{
+      width: 80px; height: 35px; 
+      background-color: rgb(62, 156, 50);
+       position: relative;
+        float: right; 
+        left: 24px;
+        font-size:15px ;
+         bottom: -15px;
+         border: rgb(255, 255, 255);
+         border-radius: 10px ;transition: 0.4s;
+         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         cursor: pointer; 
+   }
+   
+   
+   .login button:hover{
+      letter-spacing: 0.1rem; transition: 0.4s;
+      }
+      .sign button:hover{
+         letter-spacing: 0.1rem;transition: 0.4s;
+      }
+
+      .headermen{
+         float:right; width:300px ; height: 45px;position: relative;
+         bottom: 700px; opacity: 1; right: 200px;
+      }
+      
+
+      header{
+         background-color: rgb(46, 86, 172);
+         height: 450px; border-bottom:2.5px solid black ;
+         font-family: Arial, Helvetica, sans-serif;
+      }
+header .center{
+   display: flex; justify-content: space-between;
+}
+header  .information{
+   color: white;margin: 55px 75px;  text-align: left;
+}
+header .information h1{
+ 
+      border-bottom: 2px solid rgb(255, 255, 255); 
+      width: 338px; 
+      font-size: 50px; color: white;
+      font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-CondensedBold,"Helvetica Inserat","Franklin Gothic Condensed",Haettenschweiler,Impact,sans-serif-condensed,sans-serif;
+
+}
+header .information p{
+margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif; 
+    width: 508px; font-size: 25px;
+   color: white;  
+
+}
+header .three-goals{
+   display: flex; margin-top: 88px;
+}
+
+
+header .three-goals img{
+ margin: 18px;  height: 189px;  background-repeat: no-repeat;
+ width: 189px;  /*clip-path: circle(69.0% at 50% 50%);*/transition: 0.2s;border-radius: 15px;
+}
+
+header .three-goals img:hover{
+   filter: drop-shadow(0 0 0.75rem rgb(73, 71, 72)); transition: 0.2s;
   }
-.img151{
-    height: 189px; background: url("../globalgoals/Background15.png") ; position: relative; top:-310px; background-repeat: no-repeat;
-    width: 189px;  /*clip-path: circle(69.0% at 50% 50%);*/transition: 0.2s;border-radius: 15px;left: 1057px;
-    filter: drop-shadow(0 0 0.75rem rgb(73, 71, 72));transition: 0.2s;
+
+  .content-how{
+     font-family: Arial, Helvetica, sans-serif;padding: 10px;;
+  }
+  .content-how img{  margin: 18px;  height: 189px;  background-repeat: no-repeat;
+   width: 189px;  /*clip-path: circle(69.0% at 50% 50%);*/transition: 0.2s;border-radius: 15px;
+   filter: drop-shadow(0 0 0.75rem rgb(73, 71, 72)); transition: 0.5s;
+  }
+  .content-how .b6{
+     display: flex;justify-content: space-between;text-align: left; align-items: center;
+     margin: 60px 15px;
+  }
+  .content-how .b6 img{
+  position: relative;top: 21px;
+  }
+  .content-how .b6 .infor-b6 h1{
+   font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-CondensedBold,"Helvetica Inserat","Franklin Gothic Condensed",Haettenschweiler,Impact,sans-serif-condensed,sans-serif;
+   font-size: 40px; border-bottom: 2px solid black; width: 480px;
+  }
+  .content-how .b6 .infor-b6 p{
+   font-size: 20px;width: 700px;font-family: Arial, Helvetica, sans-serif;margin-top: 10px;
+
+}
+
+  .content-how .b13{
+   display: flex;justify-content: space-between;text-align: left;margin: 60px 15px;align-items: center;
+}
+.content-how .b13 img{
+   position: relative;top: 29px;
+   }
+.content-how .b13 .infor-b13 h1{
+   font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-CondensedBold,"Helvetica Inserat","Franklin Gothic Condensed",Haettenschweiler,Impact,sans-serif-condensed,sans-serif;
+   font-size: 40px; border-bottom: 2px solid black; width: 270px;
+   
+       
+}
+.content-how .b13 .infor-b13 p{
+   font-size: 20px;width: 800px;font-family: Arial, Helvetica, sans-serif;margin-top: 10px;
+     
+}
+.content-how .b15{
+   display: flex;justify-content: space-between; text-align: left;margin: 60px 15px;align-items: center;
+}
+.content-how .b15 .infor-b15 h1{
+   font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-CondensedBold,"Helvetica Inserat","Franklin Gothic Condensed",Haettenschweiler,Impact,sans-serif-condensed,sans-serif;
+   font-size: 40px; border-bottom: 2px solid black; width: 217px;
+   
+}
+.content-how .b15 .infor-b15 p{
+   font-size: 20px;width: 900px;font-family: Arial, Helvetica, sans-serif;margin-top: 10px;
+
+}
+  
+  
+  
+
+
+      
+      .back{
+         position: fixed;
+         background: rgb(40, 42, 43); 
+         height: 0px; width:100%; float: right; top: 0.1px; 
+       
+      
+      }
+      .menheader {
+         height: 60px;
+         display: flex;
+         justify-content: space-between;
+      }
+      
+      .container1{
+         position: relative; bottom: 2000px;   ;  height: 100vh; overflow-y: auto; overflow-x: hidden;
+      }
+      .tiaim1{
+        opacity: 1;
+            color: rgb(0, 0, 0);
+           
+            height: 65px;
+            font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-CondensedBold,"Helvetica Inserat","Franklin Gothic Condensed",Haettenschweiler,Impact,sans-serif-condensed,sans-serif;;
+            text-align: center; float: left;
+          
+         }
+         .tiaim1 a{
+            color: rgb(255, 255, 255); height: 0px; text-decoration: none;
+         
+         }
+         .imggol1{
+            width: 73px; position: relative; right: -59px; top: 13px;
+         }
+         .imggol1 img {
+            width: 100%;
+         }
+         .title1{
+            position: relative; bottom: 40px; right: -134px;transition: 0.9s;
+         }
+         .title1 h1 {
+            position: relative;
+            left: 2px;
+            bottom: -4px;
+           
+            font-size: 24px;
+         }
+         .title1 span {
+            position: relative;
+            left: 2px;
+            bottom: 4px;
+            font-size: 15px;
+         }
+      
+         .closemenu svg{
+      width: 24px; 
+      height: 24px; 
+      float: right; 
+      position: relative; 
+      left:-23px; 
+      top:38px; 
+      opacity: 1;
+      cursor: pointer;
+      
+         } 
+         .closemenu h3 {
+            font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-CondensedBold,"Helvetica Inserat","Franklin Gothic Condensed",Haettenschweiler,Impact,sans-serif-condensed,sans-serif;;
+      font-size: 22px; color: rgb(255, 255, 255);float: right; position: relative; 
+      left:30px; 
+      opacity: 0; cursor: pointer;
+      top:37px; 
+         }
+         .mencontent{
+            text-align: center; margin-top: 100px; opacity: 0;
+         }
+         .search1{
+           
+            position: relative;
+            top: 97px;
+         }
+         .search1 form {
+            height: 0px;margin-left: 20px;
+         
+         }
+         .search1 input{
+            font-size:15px ;
+            width: 130px; height: 30px;  position: relative; top: 2.3px;  
+             border-radius: 10px; font-family:Arial, Helvetica, sans-serif; border: rgb(136, 135, 135) solid 
+         }
+         
+         .search1  button{
+            border-radius: 10px; border: rgb(136, 135, 135) solid ;height: 30px; width:45px ; background-color: rgb(255, 255, 255);
+            cursor: pointer;position: relative;   top: 13px;
+         }
+         .search1  button img{
+           width: 45px; position: relative; right: 2px; bottom: 1px;
+            }
+            
+            .goalstable1{
+         font-family: Arial, Helvetica, sans-serif; 
+            }
+         
+            .goalstable1 ul {
+             height: 50px; color: rgb(3, 3, 3); 
+             list-style: none; 
+           position: relative;
+           top: 50px;
+             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         
+         }
+         .l1{
+            color: #00ca65 ;    
+         }
+         
+         
+         .goalstable1 li {
+            transition: 0.9s;
+             margin-top: 5px; 
+           font-size: 20px; text-align: center;
+             cursor: pointer;
+             margin-left: 10px;
+           
+         }
+         .goalstable1 a li{
+            color: rgb(255, 255, 255); transition: 0.4s;
+         }
+         .goalstable1 a{
+            text-decoration: none; width: 150px;transition: 0.4s;
+         }
+         .goalstable1 ul :hover{
+            color: #00ca65 ;transition: 0.4s;
+         }
+         
+         
+         .loga1 {
+            position: relative; top: 140px; display: flex; flex-direction: column;  align-items: center;
+         }
+         
+            .sign1{
+               height: 40px;margin-top: 15px; width: 40px;     margin-left: -36px; ;
+            }
+            .login1{
+                width: 40px;    margin-left: -36px;;
+            }
+         .sign1 button{
+            background-color: #3e9c32;
+            width: 80px; height: 35px; 
+   
+            transition: 0.4s;
+           color: white;
+              font-size:15px ;
+               border: rgb(255, 255, 255);
+               border-radius: 10px ;
+               font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+               cursor: pointer; 
+         }
+         
+         .login1 button{
+            width: 80px; height: 35px; 
+            background-color: #3e9c32;
+           margin-top: 10px;
+              font-size:15px ;transition: 0.4s;
+              color: white;
+               border: rgb(255, 255, 255);
+               border-radius: 10px ;
+               font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+               cursor: pointer; 
+         }
+        .mencontent .lang11{
+            margin-top: 164px;
+         }
+         .mencontent .lang11{
+            color: rgb(255, 255, 255); font-family:Arial, Helvetica, sans-serif ;transition: 0.4s;
+           
+            }
+            .mencontent .lang11 a:hover{
+               color: #00ca65 ; transition: 0.4s;
+            }
+          
+            .mencontent a {
+               color: rgb(255, 255, 255);
+               text-decoration: none;
+            }
+            .lang12 a{
+               color: #00ca65 ;
+            }
+            .menfooter .social1{
+               margin-top: 20px;
+            }
+            .menfooter .socialh21 h3 {
+        font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-CondensedBold,"Helvetica Inserat","Franklin Gothic Condensed",Haettenschweiler,Impact,sans-serif-condensed,sans-serif;;
+      font-size: 25px; color: rgb(255, 255, 255);
+            }
+            .menfooter .socialicons1{
+             display: inline-flex;
+             margin-left: 30px;
+             margin-top: 10px;
+            }
+       
+            .youtube1{
+               background: url("./footer/youtubeb.png"); width: 50px; height: 50px; margin-left: -6px; background-repeat: no-repeat;transition: 0.4s;
+            }
+            .youtube1:hover{
+               background: url("./footer/youtubebh.png"); background-repeat: no-repeat;transition: 0.4s;
+            }
+            .facebook1{
+               background: url("./footer/facebook-logo b.png") ;width: 50px; height: 50px; background-repeat: no-repeat;transition: 0.4s;
+            }
+            .facebook1:hover{
+               background: url("./footer/facebook-logo bh.png"); background-repeat: no-repeat;transition: 0.4s;
+            }
+      .headermen{
+         float:right; width:300px ; height: 45px;position: relative;
+         bottom: 800px; opacity: 0; right: 200px;
+      }
+      
+      .men{
+         height: 45px; width:90px ; cursor: pointer;  position: relative; right: -170px;     white-space: nowrap;
+      }
+      .men svg{
+        width: 35px;  position: relative; right: 3px;bottom: -7px;
+       }
+      .men span{
+         color: white;
+        font-size: 22px;position: relative;right: 5px;bottom: -1.5px;line-height: 49px;
+        font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-CondensedBold,"Helvetica Inserat","Franklin Gothic Condensed",Haettenschweiler,Impact,sans-serif-condensed,sans-serif;;
+      
+      
+      }
+      
+
+
+
+
+
+
+
+
+
+
+      .footer{
+         background-color:   rgb(40, 42, 43);;
+         background-attachment: scroll; height: 300px; padding: 30px; margin-top: 30px; 
+      } 
+      .footer a {
+         text-decoration: none;
+      }
+      .up{
+         display: flex; 
+         justify-content: space-between;
+         margin: 15px;
+         height: 65px;
+         border-bottom:2px solid rgb(255, 255, 255) ;
+      
+      }
+      .up .title{
+         color: rgb(0, 0, 0); text-align: center; 
+         height:60px;background-color: rgba(255, 255, 255, 0.993); width: 386px; border-radius: 15px;
+      }
+      .up .title h1{
+         font-size: 33px;
+         font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-CondensedBold,"Helvetica Inserat","Franklin Gothic Condensed",Haettenschweiler,Impact,sans-serif-condensed,sans-serif;;
+      
+      }
+      .up .title span{
+         font-family: Arial, Helvetica, sans-serif; font-size: 17px; position: relative; top: -2px;
+      } 
+      .up .lang1 a{
+         color: rgb(0, 202, 101) ;
+      }
+      .up .lang{
+      color: rgb(255, 255, 255); font-family:Arial, Helvetica, sans-serif ;
+      margin-top: 16px;transition: 0.4s;
+      }
+      .up .lang a:hover{
+      color: rgb(0, 202, 101) ; transition: 0.4s;
+      }
+      .up a {
+         color: rgb(255, 255, 255);
+         text-decoration: none;transition: 0.4s;
+      }
+      .down{
+         display: flex; 
+         justify-content: space-between; 
+         margin: 40px 85px; 
+         text-align: center;
+         color: rgb(255, 255, 255);
+         font-family: Arial, Helvetica, sans-serif;
+      }
+      .down .thegloabal h3 {
+         font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-CondensedBold,"Helvetica Inserat","Franklin Gothic Condensed",Haettenschweiler,Impact,sans-serif-condensed,sans-serif;;
+      font-size: 25px;
+         
+      }
+      .down .thegloabal p{
+         margin-top: 23px; color: #898989;
+      }
+      .about .sitemen {
+      margin-top: 5px;
+      }
+      .about ul{
+        margin-top: 23px;
+      }
+      .about ul li{
+         list-style: none;
+         margin-top: 9px;
+         color: #898989;transition: 0.4s;
+      }
+      .about ul li:hover{
+         color: #00ca65 ; transition: 0.4s;
+      
+      }
+      .social{
+         margin-top: 7px; 
+      }
+      .socialicons{
+         margin-top: 14px;
+         display:flex; 
+      }
+      
+      .youtube{
+         background: url("./footer/youtubeb.png"); width: 50px; height: 50px; margin-left: 21px; background-repeat: no-repeat;transition: 0.4s;
+      }
+      .youtube:hover{
+         background: url("./footer/youtubebh.png"); background-repeat: no-repeat;transition: 0.4s;
+      }
+      .facebook{
+         background: url("./footer/facebook-logo b.png"); width: 50px; height: 50px; background-repeat: no-repeat;transition: 0.4s;
+      }
+      .facebook:hover{
+         background: url("./footer/facebook-logo bh.png"); background-repeat: no-repeat;transition: 0.4s;
+      }
+      .Tel{
+         color: white; font-family: Arial, Helvetica, sans-serif; float: right;  
+      }
+      .teel{
+         content: ".";
+         background: url("./footer/tel.png");
+         width: 106px;
+         height: 22px;
+         background-repeat: no-repeat;
+         position: relative;
+         left: 26px; 
+      }
+      .tel {
+         margin-left: -55px;
+         position: relative;
+         top:2px;
+      }
+      .madee{
+         content: ".";
+         background: url("./footer/made.png");
+         width: 119px;
+         height: 22px;
+         background-repeat: no-repeat;
+         position: relative;
+         left: 23px; 
+      }
+      .made{
+         margin-left:-24px;
+         position: relative;
+         top:2px;
+      }
+
+
+      
+      
+      @media screen and (min-width:1500px){
+   
+         .container{
+            text-align: center;
+             margin: auto;
+             width: 1423px;
+          }
+          .foall{
+            
+             margin: auto;
+             width: 1390px;}
+             .content{
+               margin: auto;
+               width: 1390px;
+               }
+      }
+      
+      
+      
+      @media screen and (max-width:1420px ){
+         .search{
+            position: relative; left: 261px;transition: 0.9s;
+         }
+         .search input{
+            width: 260px; transition: 0.9s;
+         }
+         
+      .goalstable li {
+         margin-right: 20px; 
+        
+      }
+      }@media screen and (max-width:1350px ){
+         .goalstable li {
+            margin-right: 15px; 
+            font-size: 18px;
+            transition: 0.9s;
+         }
+         .goalstable {
+            position: relative;
+            top: 16px;
+            transition: 0.9s;
+        }
+      }
+      @media screen and (max-width:1311px ){
+         .search{
+            position: relative; left: 240px;transition: 0.9s;
+         }
+       
+      }
+      @media screen and (max-width:1253px ){
+         .search input{
+            width: 240px; transition: 0.9s;
+         }
+         .theh1{
+          
+              
+               left: 70px;
+           }
+         .vidiv{
+            position: relative; right: 25px;transition: 0.9
+         }
+      }
+      @media screen and (max-width:1236px ){
+         .search input{
+            width: 220px; transition: 0.9s;
+         }
+         .goalstable {
+            position: relative;  left: -98px;transition: 0.9s;
+         }
+      }
+      @media screen and (max-width:1198px ){
+         .search input{
+            width: 180px; transition: 0.9s;
+         }
+         .goalstable {
+            position: relative;  left: -80px;transition: 0.9s;
+         }
+         .seul{
+            width: 53%;transition: 0.9s;
+         }
+         .tiaim{
+            width: 27%;transition: 0.9s;  
+         }
+        /* .vidiv{
+            position: relative; right: 20px;transition: 0.9
+         }*/
+      
+      }
+      @media screen and (max-width:1181px ){
+         .search input{
+            width: 160px; transition: 0.9s;
+         }
+         .sign button{
+            width: 70px;transition: 0.9s;
+         }
+         
+         .login button{
+            width: 70px;transition: 0.9s;
+         }
+          .im1a2 div {
+            left: 0px;
+            bottom: -253px;
+         }
+            .im3a7 {
+               position: relative;
+               top: 259px;
+           }
+        
+      }
+      
+      
+      
+      
+      @media screen and (max-width:1148px ){
+         .search input{
+            width: 130px; transition: 0.9s;
+         }
+         .search{
+            position: relative; left: 220px;transition: 0.9s;
+         }
+         
+         .sign button{
+            width: 60px;transition: 0.9s;
+         }
+         
+         .login button{
+            width: 60px;transition: 0.9s;letter-spacing: 0rem;
+         }
+         
+         .login button:hover{
+            letter-spacing: 0.9999999999px; transition: 0.4s;
+            }
+            .sign button:hover{
+               letter-spacing: 0.9999999999px;transition: 0.4s;
+            }
+            .login1 button:hover{
+               letter-spacing: 0.9999999999px; transition: 0.4s;
+               }
+               .sign1 button:hover{
+                  letter-spacing: 0.9999999999px;transition: 0.4s;
+               }
+         .video h1{
+            font-size: 38px;
+           
+            border-bottom: 2px solid black ; width: 290px;
+         }
+         
+         .video p{
+         
+         font-size:20px ; position: relative ; 
+         left: 70px; width: 250px; 
+         
+         }
+         .cool{
+            
+             clip-path: polygon(0 0, 65% 0, 75% 100%, 0% 100%);transition: 0.9s;
+         }
+         
+         
+      }
+      @media screen and (max-width:1110px ){
+         .goalstable {
+            position: relative;  left: -71px;transition: 0.9s;
+         }
+         .search input{
+            width: 110px; transition: 0.9s;
+         }
+         /*.vidiv{
+            position: relative; right: 15px;transition: 0.9
+         }*/
+      
+      }
+      
+      
+      @media screen and (max-width:1099px ){
+         
+         .title h1 {
+            
+            font-size: 26px;transition: 0.9s;
+         }
+         .title{
+            position: relative; bottom: 5px; right: 10px;transition: 0.9s;
+         }
+         .title span{
+            font-size: 16px;
+         }
+      }
+      @media screen and (max-width:1060px ){
+         
+         
+         .search input{
+            width: 90px; transition: 0.9s;
+         }
+         .goalstable {
+            position: relative;  left: -51px;transition: 0.9s;
+         }
+         .title h1 {
+            
+            font-size: 24px;transition: 0.9s;
+         }
+         .title span{
+            font-size: 15px;
+         }
+         .title{
+            position: relative; bottom: 5px; right: 10px;transition: 0.9s;
+         }
+        
+      }
+      
+/*TABLETS AND MOBILS*/
+
+
+
+
+@media screen and (min-width:1001px)  {
+   .container1{
+     
+       margin: auto;
+       width: 1001px;
+    }
+}
+
+@media screen and (max-width:1000px ){
+   .seul{
+      position: relative; bottom: 600px;opacity: 0; transition: 1s;
+      width: 0%;right: 500px;
+   }
+   .tiaim{
+      width:45% ;
+   }
+   .loga{
+      position: relative; bottom: 600px;  opacity: 0; transition: 1s;
+      width: 0%; right: 500px;
+
+   }
+   .header hr {
+      position: relative;
+      bottom: 92px;
+      width: 100%;
+  }
+   .headermen{
+      position: relative; bottom: 130px;opacity: 1;    right: 0px;
+   }
+   
+
+.men {
+  top: 11px;
+   right: -170px;
+}
+
+.imggol {
+   
+   position: relative;
+   right: 35px;transition: 0.9s;
+   
+}
+ iframe {
+width: 800px;
+}
+}
+@media screen and (max-width:960px ){
+   .cool{
+      position: relative;  right: 150px; background: url(./back/maxresdefault3w.png); 
+       text-align: center;  height: 466px;  clip-path: polygon(0 0, 80% 0, 90% 100%, 0% 100%);
+   }
+   .video h1 { top: 92px;
+   font-size: 30px;    width: 229px; left: 80px;
+   }
+   .video p {
+      width: 157px;
+      left: 113px;
+      top: 118px;
+  }
+  
+
+
+.video a {
+   
+    top: 200px;
+    
+}
+
+}
+@media screen and (max-width:916px ){
+  
+     .theh1 {
+     left: 91px;
+   
+  }
+  .theh1 p{    width: 100%;}
+
+}
+@media screen and  (max-width:841px) {
+   .cool{
+      position: relative;  right: 190px; background: url(./back/maxresdefault3w.png); 
+       text-align: center;  height: 466px;  clip-path: polygon(0 0, 80% 0, 90% 100%, 0% 100%);
+   }
+   .video h1 { top: 92px;
+      font-size: 30px;    width: 229px; left: 100px;
+      }
+      .video p {
+         width: 157px;
+         left: 133px;
+         top: 118px;
+     }
+     .video a {
+   left: 60px;  
+   }
+   .title {
+      position: relative;
+      right: 16px;transition: 0.9s;
+     
+   }
+   .imggol {
+      
+      position: relative;
+      right: 15px;transition: 0.9s;
+      
+}
+iframe {
+   width: 726px;
+   height: 434px;
+}
+}   
+
+@media screen and  (max-width:766px) {
+   .cool{
+      position: relative;  right: 150px; background: url(./back/maxresdefault3ww.png); 
+       text-align: center;  height: 466px;  clip-path: polygon(0 0, 80% 0, 90% 100%, 0% 100%);
+   }
+   .ti .title {
+      position: relative;
+      right: 6px;transition: 0.9s;
+     
+   }
+   .imggol {
+      
+      position: relative;
+      right: 5px;transition: 0.9s;
+      
+}
+.theh1 p {
+   font-size: 14px;
+     
+      width: 80%;
+}   
+.theh1 h1{
+   font-size: 35px; width: 266px;
+}
+iframe {
+    width: 585px;
+    height: 404px;
+}
+.down {
+   display: flex;
+   flex-direction: column;
+}
+.footer{
+   height: 468px;
+}
+.about .sitemen {
+   margin-top: 38px;
+}
+.social {
+   margin-top: 32px;
+}
+.socialicons {
+   margin-top: 14px;
+   display: inline-flex;
+}
+.Tel {
+  
+   margin-top: -61px;
+}
+.footer {
+   height: 481px;
+}
+}
+@media screen and  (min-width:695.9px){
+   .men span {
+    
+      bottom: -1.5px;
+   
+   }
+   .men svg{
+      bottom: -6.5px;
+   }
+}
+@media screen and  (max-width:695.9px){
+   .tiaim{
+      width: 45%;
+   }
+   .headermen{
+   width: 68px;
+}
+
+ .list{
+   position: relative;
+   left: 2px; 
+ }
+.men{  
+   position: relative;
+   left: -70px;
+   
+   width: 30px;}
+.men span {
+   position: relative;
+   right: 0px;
+   top: 2px;
+}
+.men svg {
+   position: relative;
+   right: -2px;
+   top: 7.5px;
+}
+#list{
+   right: 2px;
+}
+
+}
+
+@media screen and  (max-width:624px){
+   .tiaim{
+      width: 55%;
+   }
+   .theh1{
+      width: 60%;    margin-left: 90px;
+   }
+   .the{
+      margin-top: 12px;
+   }
+   .theh1 p {
+      font-size: 12px;
+        
+         
+   }   
+   .yout {
+      margin-left: 96px;
+      text-align: left;
+      width: 50%;
+  }
+   
+   .theh1 h1{
+      font-size: 30px; width: 230px;
+   }
+   .cool{
+      position: relative;  right: 150px; background: url(./back/maxresdefault3-Recoveredw.png); 
+         height: 466px;  
+   }
+   .video h1 { top: 92px;
+      font-size: 30px;    width: 229px; left: 120px;
+      }
+      .video p {
+         width: 157px;
+         left: 150px;
+         top: 118px;
+     }
+     .video a {
+   left: 80px;  
+   }
+   .youtvid iframe {
+    
+         width: 483px;
+         height: 334px;
+  }
+  .up .title {
+  
+   width: 300px;
+   
+}
+  
+}
+@media screen and  (max-width:520px){
+   .tiaim{
+      width: 60%;
+   }
+  
+   .video h1 {
+      font-size: 25px;
+      width: 196px;
+      left: 142px;
+   }
+       .video p {
+         width: 157px;
+         left: 160px;
+         top: 118px;
+         font-size: 18px;
+     }
+   
+   .men {
+      position: relative;
+      left: -54px;
+   }
+   .youtvid iframe {
+      width: 359px;
+      height: 273px;
+  }
+  .yout p {
+ 
+   font-size: 18px;
+}
+.up .title span {
+
+   font-size: 15px;
+
+   }
+   .up .title h1 {
+      font-size: 28px;
+  }
+  .up .title {
+   width: 251px;
+}
+}
+@media screen and  (max-width:480px){
+   .tiaim{
+      width: 90%;
+   }
+  
+   .theh1 p {
+      font-size: 12px;
+     
+   }   
+
+   .imggol {
+      
+      position: relative;
+      right: 68px;transition: 0.9s;
+   }
+      .info {
+         margin-top: 498px;
+     }  
+     .up .title {
+     
+      margin-left: 15px;
+  }   
+  .up .title h1 {
+   font-size: 25px;
+   margin-top: 10px;
+  }
+  .up .title span {
+   font-size: 13px;
+}
+.up .lang {
+  
+   width: 146px;
+}
+}
+@media screen and (max-width:495px) {
+   .footer {
+      height: 517px;
+   }
+   
+   
+}
+@media screen  and (max-width:470px){
+   .im3a7 {
+      position: relative;
+      top: 484px;
+  }
+  .up .title {
+
+      width: 499px;
+  }
+.up .title h1 {
+font-size: 23px;
+margin-top: 10px;
+}
+.up .title span {
+font-size: 11px;
+}
+.up .lang {
+  
+   display: flex;
+}
+}
+
+@media screen and  (max-width:450px){
+  
+   .men {
+      position: relative;
+      left: -40px;
+   }
+
+
+
+.up .title {
+  
+   margin-top: -10px;   
+   background-color: rgb(40, 42, 43); 
+
+      margin-left: 41px;
+    color: #ffffff;
+}
+.up .title h1 {
+  font-size: 20px;
+   white-space: nowrap;
+}
+.up .title span {
+    font-size: 10px;
 }
 
 
+}
+@media screen and (max-width:429px) {
+   .footer {
+      height: 610px;
+   }
+   .Tel {
+      margin-top: -9px;}
+      .down .thegloabal h3 {
+         width: 150%;position: relative;
+         right: 40px;
+      }
+}
+@media screen and (max-width:400px) {
 
-      .all1{
-        position: relative ; bottom:-456px; margin: -8px;height: 0.00000000000000000000001px;
-     }
-       .bage{
-          height: 55px;
-          position: relative ; top: 49ch;  
-          right: 90px; font-family: Arial, Helvetica, sans-serif;  
-           width: 380px; 
-        }
-       .bage h1 { 
-          width: 250px; height: 45px;
-       text-decoration: none;
-          background-color:  rgb(255, 255, 255) ; border-radius: 10px ;
-          position: relative; top: 10px;
-          font-family: Arial, Helvetica, sans-serif;
-          margin-left:125px; 
-          font-size: 25px;
-          text-align: center;   
-          
-        }
-        .bage span{
-           position: relative; bottom: 27px;left:132px;  width: 500px;
-        }
-        .bage img{
-      position: relative; bottom: 80px; left: 23px;
-        }
-     
-       .bage a {
-          text-decoration: none ; color: rgb(0, 0, 0);
-       }
+   .cool {
+      position: relative;
+    right: 17px;
+      clip-path: polygon(0 0, 55% 0, 55% 100%, 0% 100%);
+  }
+   
+}
+@media screen and  (max-width:385px){
+   .men {
+      position: relative;
+      left: -35px;
+   }
+ 
+    iframe {
+      width: 295px;
+      height: 246px;
+  }  
+  .up a {
+  
+   font-size: 12px;
+ margin-top: 5px;
+} 
+   .up .lang1{
+font-size: 12px; margin-top: 5px;
+ 
+} 
+.down .thegloabal h3 {
+   width: 150%;position: relative;
+   right: 32px;
+}
+}
+@media screen and (max-width:365px){
+   .down .thegloabal h3 {
+      width: 200%;
+      position: relative;
+      right: 57px;
+   }
+
+.about ul li {
+
+ width: 121px;
+}
+.about ul {
+ margin-left: -2px;
+}
+}
+@media screen and (max-width:355.5px){
+   .footer {
+      height: 665px;
+  }
+}
+@media screen and  (max-width:337px){
+   .down .thegloabal h3 {
+      width: 100%;
+      position: relative;
+      right: 0px;}
+
+
+}
+   @media screen and  (max-width:345px){
       
-     .lang{
-        height: 200px;position: relative; top: 80ch; background-color: rgb(47, 50, 51);
+         .title{
+            right: 37px;
+         }
+        
+       iframe {
+            width: 258px;
+            height: 203px;
+        }
+     
+  .up .title {
+  
+   background-color: rgb(40, 42, 43);
+   margin-left: 27px;
+  }
+  .footer {
+   height: 735px;
+}
+.about ul li {
+
+ width: 100%;
+}
+.about ul {
+ margin-left: 0px;
+}
+
+      }
+
+
+@media screen and  (max-width:300px){
+   .men svg {
       
-       }
-       .lang  span{
-          color: rgb(255, 255, 255); position: relative; top: 48px; left: 155.7ch;
+    
+         right: -2px;
+         top: 17.5px;
      
-       }
-     .lang a{
-        text-decoration: none; color: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif;
-        position: relative; top: 50px; left: 140ch;
-     }  
-     
-        .lang a:hover{
-           color: rgb(22, 197, 124);}
-        .iconlang{
-           content: none;
-           background: url("./back/images\ \(13\).png"); height: 100px; width: 100px;
-        }
-     .all1 hr {
-        width: 169ch; position: relative; bottom: 25px;
-     }
-     
-     
-     .lang1 a{
-        position: relative;top:3px; left: 1px; color:rgb(255, 255, 255);
-        color: rgb(22, 197, 124);
-        
-        }
-        /*.lang1 a::before{
-           content: "\25C0"; 
-           width: 50px;
-           height: 50px;
-           color: rgb(22, 197, 124);; position: relative;
-           right: 2px;
-           
-        }
-        .lang1 a::after{
-           content: "\25BA"; 
-           width: 50px;
-           height: 50px;
-           color: rgb(22, 197, 124);;
-           
-           
-        }*/
-     
-     .tel{
-        color: rgb(255, 255, 255); position: relative; top: 540px; left: 138ch;font-family: Arial, Helvetica, sans-serif;
-     }
-     .made{
-        color: rgb(255, 255, 255); position: relative; top: 520px; left: 120.7ch;font-family: Arial, Helvetica, sans-serif;
-     }
-     
-     .tel:after{
-        content: "01019153027";
-        position: relative;
-        left: 5px; color: rgb(22, 114, 131);
-     }
-     .made:after{
-        content: "Yahia Ahmed";
-        position: relative;
-        left: 5px; color: rgb(22, 114, 131);
-     }
-     .info{
-        position: relative; top: 400px;  left: 400px; 
-        color: rgb(255, 255, 255);font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px; width: 650px;
-        
-     }.info li{
-        list-style:none; float: left; margin:33px   ;
-     }
-     .info a{
-         color: rgb(255, 255, 255);
-     }
-     .info li:hover{
-         font-size: 21px;
-     }
-     .don{
-         position: relative ; top: 999px; left: 550px;
-     }
-     .don button{
-        width: 300px; height: 40px; font-size: 20px;
-        background: rgb(34,152,182);
-        background: linear-gradient(90deg, rgba(34,152,182,1) 0%, rgba(50,103,56,1) 49%, rgba(79,173,38,1) 100%); border:  none; cursor: pointer ; color: rgb(255, 255, 255);
-     }
+      transition: 0.9s;
+}
+.men span{
+ opacity: 0;
+}
+#spa{
+   opacity: 0;    font-size: 0px;
+}
+   .men {
+      position: relative;
+      left: 27px;
+
+   width: 0px;
+}
+.closemenu h3{
+   opacity: 0;
+    font-size: 0px;
+}
+
+.foldlist{
+
+  margin-right: -79px; 
+
+}
+.vidiv {
+   position: relative;
+   right: 32px;
+   bottom: 471px;
+}
+.video h1 {
+   font-size: 18px;
+   width: 138px;
+   left: 208px;
+}
+.video p{
+   font-size: 17px;
+   left:220px
+}
+.yout h1 {
+   font-size: 26px;
+   width: 208px;}
+   .yout h1 {
+      font-size: 26px;
+      width: 204px;
+  }
+   .footer {
+      height: 785px;
+  }
+  .youtube {
+  margin-left: -9px;
+  }
+
+
+.theh1 h1 {
+    font-size: 26px;
+    width: 197px;
+}
+.down .thegloabal h3 {
+    width: 100%;
+   
+    right: 0px;
+   }
+   .down .thegloabal p {
+      margin-top: 23px;
+      color: #898989;
+      width: 100px;
+      margin-left: -23px;
+  }
+  .about ul li {
+ 
+   width: 121px;
+}
+.about ul {
+   margin-left: -28px;
+}
+.up a {
+   font-size: 9px;
+   margin-top: 8px;
+}
+.up .lang {
+   margin-left: -16px;
+   margin-top: 26px;
+}
+.tiaim1 a {
+   right: 36px;
+ 
+   position: relative;
+  
+}
+}
+   

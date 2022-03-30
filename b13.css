@@ -930,7 +930,13 @@ margin-top: 5px;
 
 /*TABLETS AND MOBILS*/
 
-
+@media screen and (min-width:1001px)  {
+   .container1{
+     
+       margin: auto;
+       width: 1001px;
+    }
+}
 
 @media screen and (max-width:1001px ){
    .first-explain {

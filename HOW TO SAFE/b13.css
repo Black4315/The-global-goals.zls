@@ -37,7 +37,7 @@ background-color: rgb(129, 129, 129);
  
 }
  .header{
-   background-color: #56c02a;
+   background-color: #3f7e45;
    height: 60px;
    padding: 10px;
  }
@@ -151,7 +151,7 @@ font-family: Arial, Helvetica, sans-serif; position: relative; right:135px; top:
    }
 .sign button{
    width: 80px; height: 35px; 
-   background-color: #56c02a;
+   background-color: #3f7e45;
           position: relative;
      position: relative;
      float: right; 
@@ -167,7 +167,7 @@ font-family: Arial, Helvetica, sans-serif; position: relative; right:135px; top:
 
 .login button{
    width: 80px; height: 35px; 
-   background-color:#56c02a;       position: relative;
+   background-color: #3f7e45;       position: relative;
      float: right; 
      left: -8px;
      color: white;
@@ -313,7 +313,7 @@ top:37px;
    
    }
    .l1{
-      color:#56c02a;   
+      color:#3f7e45;    
    }
    
    
@@ -332,7 +332,7 @@ top:37px;
       text-decoration: none; width: 150px;transition: 0.4s;
    }
    .goalstable1 ul :hover{
-      color: #56c02a;transition: 0.4s;
+      color: #3f7e45;transition: 0.4s;
    }
    
    
@@ -348,7 +348,7 @@ top:37px;
       }
    .sign1 button{
       width: 80px; height: 35px; 
-      background-color: #56c02a;
+      background-color: #3f7e45;
       transition: 0.4s;
      color: white;
         font-size:15px ;
@@ -360,7 +360,7 @@ top:37px;
    
    .login1 button{
       width: 80px; height: 35px; 
-      background-color: #56c02a;
+      background-color: #3f7e45;
      margin-top: 10px;
         font-size:15px ;transition: 0.4s;
         color: white;
@@ -385,7 +385,7 @@ top:37px;
          text-decoration: none;
       }
       .lang12 a{
-         color: #56c02a;
+         color: #3f7e45;
       }
       .menfooter .social1{
          margin-top: 20px;
@@ -401,16 +401,16 @@ font-size: 25px; color: rgb(255, 255, 255);
       }
  
       .youtube1{
-         background: url("./site/b15/footer/youtubeb.png"); width: 50px; height: 50px; margin-left: -6px; background-repeat: no-repeat;transition: 0.4s;
+         background: url("../site/b13/footer/youtubeb.png"); width: 50px; height: 50px; margin-left: -6px; background-repeat: no-repeat;transition: 0.4s;
       }
       .youtube1:hover{
-         background: url("./site/b15/footer/youtubebh.png"); background-repeat: no-repeat;transition: 0.4s;
+         background: url("../site/b13/footer/youtubebh.png"); background-repeat: no-repeat;transition: 0.4s;
       }
       .facebook1{
-         background: url("./site/b15/footer/facebook-logo b.png") ;width: 50px; height: 50px; background-repeat: no-repeat;transition: 0.4s;
+         background: url("../site/b13/footer/facebook-logo b.png") ;width: 50px; height: 50px; background-repeat: no-repeat;transition: 0.4s;
       }
       .facebook1:hover{
-         background: url("./site/b15/footer/facebook-logo bh.png"); background-repeat: no-repeat;transition: 0.4s;
+         background: url("../site/b13/footer/facebook-logo bh.png"); background-repeat: no-repeat;transition: 0.4s;
       }
 .headermen{
    float:right; width:300px ; height: 45px;position: relative;
@@ -431,6 +431,9 @@ font-size: 25px; color: rgb(255, 255, 255);
 
 }
 
+.l{
+   color: black;  height: 41px;  border-bottom:2px solid rgb(0, 0, 0);
+}
 
 
 
@@ -444,7 +447,7 @@ font-size: 25px; color: rgb(255, 255, 255);
 
 
 .center{
-   background-color: #56c02a; height: 400px;
+   background-color: #3f7e45; height: 400px;
 }
 .card {
    display: flex;
@@ -455,7 +458,7 @@ font-size: 25px; color: rgb(255, 255, 255);
 .img1{    
    height: 486px;
    width: 650px;
-   background: url(./site/b15/39819.png);
+   background: url(../site/b13/physical_earth_satellite_image_mural_lg__85186.1560352839.jpg);
    background-repeat: no-repeat;
      position: relative; 
      bottom: 16px;
@@ -479,8 +482,8 @@ font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-Cond
 }
 
 .pro::before{
-  content: "15"; position: relative;     right: 187px; top: 13px; font-weight: 600;
-  color: rgb(18, 39, 25); font-size: 150px; font-family: 'CombiNumerals Ltd', sans-serif;
+  content: "13"; position: relative;     right: 187px; top: 13px; font-weight: 600;
+  color: rgb(18, 37, 24); font-size: 150px; font-family: 'CombiNumerals Ltd', sans-serif;
 }
  .p{
      position: relative ; margin-top: 142px; margin-right: -193px;
@@ -490,7 +493,7 @@ font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-Cond
        color: rgb(255, 255, 255);
        font-size: 30px; 
        font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-CondensedBold,"Helvetica Inserat","Franklin Gothic Condensed",Haettenschweiler,Impact,sans-serif-condensed,sans-serif;
-width: 110%;
+width: 100%;
  }
 .content{
 text-align: center;
@@ -505,7 +508,7 @@ text-align: center;
 }
 .first-explain .background{
    
-   height:189px ; width: 189px; background:url("./site/b15/background15.png") ; 
+   height:189px ; width: 189px; background:url("../site/b13/background13.png") ; 
    filter: drop-shadow(0 0 0.75rem rgb(73, 71, 72)); 
    border-radius:15px ;
   
@@ -554,7 +557,7 @@ margin-left:150px ;
    margin-top: 100px;
    margin-bottom: 20px;
   width: 300px; height: 40px; font-size: 20px;
-  background-color: #56c02a;
+  background-color: #3f7e45;
   border:  none; 
   cursor: pointer ; color: rgb(255, 255, 255);
   transition: 0.4s;
@@ -591,14 +594,14 @@ letter-spacing: 0.1rem;transition: 0.4s;
    font-family:Arial, Helvetica, sans-serif; font-size: 15px; position: relative; top: -2px;
 } 
 .foall .up .lang1 a{
-   color: #56c02a;
+   color: #3f7e45;
 }
 .foall .up .lang{
 color: rgb(255, 255, 255); font-family:Arial, Helvetica, sans-serif ;
 margin-top: 16px;transition: 0.4s;
 }
 .foall .up .lang a:hover{
-color: #56c02a; transition: 0.4s;
+color: #3f7e45; transition: 0.4s;
 }
 .foall .up a {
    color: rgb(255, 255, 255);
@@ -632,7 +635,7 @@ margin-top: 5px;
    color: #898989;transition: 0.4s;
 }
 .about ul li:hover{
-   color: #56c02a; transition: 0.4s;
+   color: #3f7e45; transition: 0.4s;
 
 }
 .social{
@@ -644,23 +647,23 @@ margin-top: 5px;
 }
 
 .youtube{
-   background: url("./site/b15/footer/youtubeb.png"); width: 50px; height: 50px; margin-left: 21px; background-repeat: no-repeat;transition: 0.4s;
+   background: url("../site/b13/footer/youtubeb.png"); width: 50px; height: 50px; margin-left: 21px; background-repeat: no-repeat;transition: 0.4s;
 }
 .youtube:hover{
-   background: url("./site/b15/footer/youtubebh.png"); background-repeat: no-repeat;transition: 0.4s;
+   background: url("../site/b13/footer/youtubebh.png"); background-repeat: no-repeat;transition: 0.4s;
 }
 .facebook{
-   background: url("./site/b15/footer/facebook-logo\ b.png"); width: 50px; height: 50px; background-repeat: no-repeat;transition: 0.4s;
+   background: url("../site/b13/footer/facebook-logo\ b.png"); width: 50px; height: 50px; background-repeat: no-repeat;transition: 0.4s;
 }
 .facebook:hover{
-   background: url("./site/b15/footer/facebook-logo\ bh.png"); background-repeat: no-repeat;transition: 0.4s;
+   background: url("../site/b13/footer/facebook-logo\ bh.png"); background-repeat: no-repeat;transition: 0.4s;
 }
 .Tel{
    color: white; font-family: Arial, Helvetica, sans-serif; float: right;  
 }
 .teel{
    content: ".";
-   background: url("./footer/tel.png");
+   background: url("../footer/tel.png");
    width: 106px;
    height: 22px;
    background-repeat: no-repeat;
@@ -674,7 +677,7 @@ margin-top: 5px;
 }
 .madee{
    content: ".";
-   background: url("./footer/made.png");
+   background: url("../footer/made.png");
    width: 119px;
    height: 22px;
    background-repeat: no-repeat;
@@ -926,6 +929,7 @@ margin-top: 5px;
 
 
 /*TABLETS AND MOBILS*/
+
 @media screen and (min-width:1001px)  {
    .container1{
      
@@ -933,7 +937,6 @@ margin-top: 5px;
        width: 1001px;
     }
 }
-
 
 @media screen and (max-width:1001px ){
    .first-explain {
@@ -1265,7 +1268,7 @@ width: 800px;
    width: 30px;
 }
 .pro h1 {
-   width: 178px;
+   width: 4px;
 }
 }
 @media screen and  (max-width:624px){
@@ -1839,11 +1842,9 @@ body{
 .pro h1 {
    position: relative;
    top: -43px;
-   right: 5px;
+   right: 21px;
    font-size: 30px;
    transition: 0.9s;
-      width: 96px;
-  
 }
 .men span{
  opacity: 0;

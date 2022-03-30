@@ -937,6 +937,12 @@ margin-top: 5px;
   right: 16px;
   margin-top: 67px;
 }
+}@media screen and (min-width:1001px)  {
+  .container1{
+    
+      margin: auto;
+      width: 1001px;
+   }
 }
 @media screen and (max-width:1000px ){
   .seul{

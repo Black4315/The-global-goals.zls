@@ -20,7 +20,13 @@ height: 50px;
 background-color: rgb(129, 129, 129);
 
 }
-
+@media screen and (min-width:1001px)  {
+  .container1{
+    
+      margin: auto;
+      width: 1001px;
+   }
+}
 @media screen and (max-width:380px) {
 
   ::-webkit-scrollbar {
