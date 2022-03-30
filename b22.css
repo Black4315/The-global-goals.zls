@@ -1,16 +1,16 @@
 /*body{
     background-color: #e5233b;
 }*/
-@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;500;700&display=swap');
 .all1{
-    position: relative; background-color: #e5233b; height: 400px; right: -8px;
+    position: relative; background-color:  #dca63a; height: 400px; right: -8px;
 }
 
 .start{
     height: 45px; 
       font-family:Arial, Helvetica, sans-serif;
        padding: 20px;
-      background-color: #e5233b ; position: relative; right: -8px;
+      background-color:  #dca63a ; position: relative; right: -8px;
        font-family: 'Tajawal', sans-serif,Verdana, Geneva, Tahoma, sans-serif;
    
     }
@@ -84,7 +84,7 @@
     
     .sign button{
         width: 80px; height: 47px; 
-        background-color: #e5233b;
+        background-color:  #dca63a;
          position: relative;
           float: right; 
           right :1184px;
@@ -97,7 +97,7 @@
     
     .login button{
         width: 80px; height: 45px; 
-        background-color: #e5233b;
+        background-color:  #dca63a;
          position: relative;
           float: right; 
           right: 1192px;
@@ -133,7 +133,7 @@
     }
     
     .img{
-        height:189px ; width: 189px; background:url("./site ar/b1/o.png ") ; filter: drop-shadow(0 0 0.75rem rgb(73, 71, 72)); 
+        height:189px ; width: 189px; background:url("./site ar/b2/r.png") ; filter: drop-shadow(0 0 0.75rem rgb(73, 71, 72)); 
         position: relative; left: 1157px;  top: 475px; border-radius:15px ;
       }
       .pro{
@@ -146,25 +146,25 @@
 
  
    .pro::after{
-       content: "1"; position: relative; right: -586px; bottom:169px; font-weight: 600;
-       color: rgb(78, 25, 25);  font-size: 150px; font-family: 'CombiNumerals Ltd', sans-serif;
+       content: "2"; position: relative; right: -600px; bottom:169px; font-weight: 600;
+       color: rgb(56, 42, 20);  font-size: 150px; font-family: 'CombiNumerals Ltd', sans-serif;
    }
       .p{
           position: relative ; bottom: 860px;left: 245px; width: 60px; 
       }
       .p p{
-          width: 606px;  position: relative; right: -370px; color: rgb(255, 255, 255);
+          width: 606px;  position: relative; right: -370px; color: rgb(255, 255, 255);text-align: right;
             font-size: 30px; font-family: "Giorgio Sans Bold",AvenirNextCondensed-DemiBold,HelveticaNeue-CondensedBold,"Helvetica Inserat","Franklin Gothic Condensed",Haettenschweiler,Impact,sans-serif-condensed,sans-serif;
 
       }
         .img1{    
             height: 486px;
             width: 650px;
-            background: url("./site ar/b1/1_poverty_hands_istock614211908.jpg");
+            background: url("./site ar/b2/Business-backs-Zero-Hunger-Private-Sector-Pledge-led-by-WBCSD-and-partners_i1140.jpg");
             background-repeat: no-repeat;
             position: relative;
             left: -18px;
-            bottom: 655px;
+            bottom: 663px;
             clip-path: polygon(0% 0,0% 100%, 100% 100%,60% 0%);
            
         }
@@ -174,7 +174,7 @@
         }
         .pov h1{
             font-family: 'Tajawal', sans-serif,Verdana, Geneva, Tahoma, sans-serif;
-            border-bottom:2px solid #000 ; width: 322px; font-size: 40px; position: relative; right: -400px; text-align: right;
+            border-bottom:2px solid #000 ; width: 340px; font-size: 40px; position: relative; right: -380px; text-align: right;
         }
         .pov p{
            font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: right;
@@ -200,7 +200,7 @@
         }
         .tar a button{
             position:relative; top: 40px; left: 400px; width: 300px; height: 40px; font-size: 20px;
-            background-color: #e5233b ; border:  none; cursor: pointer ; color: rgb(255, 255, 255);
+            background-color:  #dca63a ; border:  none; cursor: pointer ; color: rgb(255, 255, 255);
         }
         .all2{
             position: relative ; bottom: 400px;margin: -7px;height: 0.000000000000000001px;

@@ -691,7 +691,14 @@ header .three-goals img:hover{
          margin-right: 20px; 
         
       }
-      }@media screen and (max-width:1350px ){
+      }
+      @media screen and (max-width:1380px) {
+         header .information p {
+            width: 443px;
+          transition: 0.9s;
+        }
+      }
+      @media screen and (max-width:1350px ){
          .goalstable li {
             margin-right: 15px; 
             font-size: 18px;
@@ -707,7 +714,10 @@ header .three-goals img:hover{
          .search{
             position: relative; left: 240px;transition: 0.9s;
          }
-       
+         header .information p {
+            width: 360px;
+            transition: 0.9s;
+        }
       }
       @media screen and (max-width:1253px ){
          .search input{
@@ -729,6 +739,10 @@ header .three-goals img:hover{
          .goalstable {
             position: relative;  left: -98px;transition: 0.9s;
          }
+         header .information p {
+            width: 332px;
+            transition: 0.9s;
+        }
       }
       @media screen and (max-width:1198px ){
          .search input{
@@ -746,7 +760,15 @@ header .three-goals img:hover{
         /* .vidiv{
             position: relative; right: 20px;transition: 0.9
          }*/
-      
+         header .information h1 {
+            width: 264px;
+            font-size: 40px;
+        }
+        header .information p {
+         width: 300px;
+         font-size: 22px;
+         transition: 0.9s;
+     }
       }
       @media screen and (max-width:1181px ){
          .search input{
@@ -767,7 +789,34 @@ header .three-goals img:hover{
                position: relative;
                top: 259px;
            }
-        
+           header .information p {
+            width: 259px;
+            font-size: 22px;
+            transition: 0.9s;
+        }
+        .content-how .b15 .infor-b15 p {
+         font-size: 20px;
+         width: 724px;
+         font-family: Arial, Helvetica, sans-serif;
+         margin-top: 10px; transition: 0.9s;
+     }
+     header .center {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  header .information p {
+   width: 140%;
+   font-size: 22px;
+   transition: 0.9s;
+}
+header .three-goals {
+   display: flex;
+   margin-top: -29px;
+}
+
+
       }
       
       
