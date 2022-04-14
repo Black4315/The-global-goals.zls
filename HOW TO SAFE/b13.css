@@ -65,7 +65,13 @@ background-color: rgb(129, 129, 129);
  
  }
  .title  h1{
-   width: 187px; height: 35px;
+   width: 102px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 189px;
+   border: 4px solid black;
+   height: 34px; 
 text-decoration: none;
    background-color:  rgb(255, 255, 255) ;
   
