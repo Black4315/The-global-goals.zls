@@ -108,7 +108,7 @@ let dataaccount;
 if(localStorage.Accounts != null || localStorage.Accounts != undefined ){
   dataaccount = JSON.parse(localStorage.Accounts);
 }else{
-  dataaccount = [];
+  dataaccount = [{username:".",email:".....",pass:"....."}];
   
 }
 
