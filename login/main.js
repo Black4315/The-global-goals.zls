@@ -185,6 +185,7 @@ if(moodEmail === 'error'){
 }
 else if(emailInputsign.value ===''){
   inputError(emailInputsign,'error','Enter The Email')
+    
 }
 else
 {
