@@ -102,10 +102,10 @@ let loginmood ;
   let comPasswordInputsign = document.getElementById('comPasswordInput-sign');
 //let
    
-console.log(JSON.stringify(localStorage.Accounts))
+
 //take data
 let dataaccount;
-if(localStorage.Accounts != null){
+if(localStorage.Accounts != null || localStorage.Accounts != undefined ){
   dataaccount = JSON.parse(localStorage.Accounts);
 }else{
   dataaccount = [];
