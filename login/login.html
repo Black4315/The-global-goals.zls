@@ -1,23 +1,84 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8" >
-        <meta name="descriptoin" content="login" >
-        <link rel="stylesheet" href="login(2).css">
-        <link rel="shortcut icon" href="../globalgoals\Untitled-31.png" type="image/x-icon" >
-        <title>Log In</title>
+        <meta charset="utf-8">
+        <meta name="description" content="log in /sgin up">
+        <link  rel="stylesheet" href="main.css">
+        <title>log in /sgin up</title> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta thhp-equiv="X-UA-Compatible"content="IE=edge,chrome=1" >
+        <link rel="shortcut icon" href="Untitled-31.png" type="image/x-icon">
     </head>
     <body>
        
-        <div class="log">
-             <img src="../globalgoals\Untitled-31.png" >
-            <form method="post">
-<input type="email" placeholder="Email" class="em" name="email">
+            <div class="container">
+                <div class="log"> <img src="Untitled-31.png" class="logphoto" alt="login photo" ></div>
+ 
+                <form class="form  " id="login"  >
 
-<input type="password" placeholder="Password"  class="ps" name="pass" maxlength="100" >
-<button type="submit" >Log In</button>
-</form>
-        </div>
+                   
+                   
+                    <h1 class="form-title">Sign In</h1>
+                      
+                      <div class="form-messege form-messege-error"></div>
 
+                      <div class="form-input">
+                          <input type="email" class="input-form"  id="emailInput-log" autofocus placeholder="Email" name="Email">
+                      <div class="form-input-error-messege"></div> 
+                    </div>
+                      
+                      <div class="form-input">
+                        <input type="password" class="input-form" id="passwordInput-log" autofocus placeholder="Password" name="Password">
+                        <div class="form-input-error-messege"></div> 
+                    </div>
+
+                        <button class="form-buton"  type="submit">Continue</button>
+                    
+                    <p class="form-text" >
+                        <a class="form-a" id=">Forget password">Forget password?</a>
+                    </p>
+                     <p class="form-text" >
+                        <a  class="form-a" id="linkToCreateAcount">Don't have an account?sign Up</a> 
+                    </p>
+                   
+                </form>
+
+
+
+                <form  id="sign up"class=" form form-hidden"  >
+                    <h1 class="form-title">Create An Account</h1>
+                      
+                      <div class="form-messege form-messege-error"></div>
+
+                      <div class="form-input">
+                          <input type="text" class="input-form" id="username" autofocus placeholder="Username">
+                      <div class="form-input-error-messege"></div> 
+                    </div>
+
+                    <div class="form-input">
+                        <input type="email" class="input-form" id="emailInput-sign" autofocus placeholder="Email">
+                    <div class="form-input-error-messege"></div> 
+                  </div>
+                      
+                      <div class="form-input">
+                        <input type="password" class="input-form" id="passwordInput-sign" autofocus placeholder="Password">
+                        <div class="form-input-error-messege"></div> 
+                    </div>
+
+                    <div class="form-input">
+                        <input type="password" class="input-form"  id="comPasswordInput-sign" autofocus placeholder="Confirm Password">
+                        <div class="form-input-error-messege"></div> 
+                    </div>
+
+                        <button class="form-buton"  type="submit">Continue</button>
+                    
+                    <p class="form-text" >
+                        <a class="form-a" id="linkToLogin">Already have an account?sign in</a>
+                    </p>
+                     
+                </form>
+              
+            </div>
+     <script src="main.js" ></script>
     </body>
 </html>

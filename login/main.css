@@ -1,0 +1,138 @@
+body{
+  /*  --color--primary:#009579;
+    --color--sec-primary:#007f67;*/
+    --color--primary:#0283b4;
+    --color--sec-primary:#016e99;
+    --color--error:#cc3333;
+    --color--sucsses:#4bb544;
+    ---border--radius:4px;
+    --color--secendry:rgb(15, 61, 160);
+    
+    margin: 0px;
+height: 100vh ;
+display: flex;
+justify-content: center;
+align-items: center;
+background: linear-gradient(90deg , black 0% ,var(--color--sec-primary) 0% ,rgb(241, 123, 123) 100%) ;
+background-size: cover;
+font-size: 18px;
+}
+ 
+.container{
+width: 400px;
+max-width: 400px;
+background-color: white;
+border-radius: 8px;
+padding: 2rem;
+margin: 1rem;
+filter: drop-shadow(0 0 0.50rem black );
+font-family: sans-serif;
+font-size: 1rem;
+font-weight: 500;
+ }
+ 
+ .form-hidden{
+     display: none;
+ }
+
+form > *:first-child{
+    margin-top: 0   ;
+}
+
+ form > *:last-child{
+    margin-bottom: 0;
+}
+
+.form-messege-error{
+    text-align: center;
+    margin-bottom: 1rem;
+   
+    color: var(--color--error);
+}
+
+.form-title{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.form-input{
+    margin-bottom: 1rem;
+}
+ .input-form{
+     width: 100%;
+     padding: 0.75rem;
+     box-sizing: border-box;
+     border-radius: var(---border--radius);
+     border: 1px solid #dddddd ;
+     background-color: #eeeeee;
+      outline: none;
+ }
+ .input-form:focus{
+    border-color:  var(--color--primary) ;
+ }
+
+ .input-form-error{
+     color: var(--color--error);
+    border-color:  var(--color--error) ;
+ }
+ 
+ .input-form-error:focus{
+    border-color:  var(--color--error) ;
+ }
+ .input-form-sucsess{
+    color: black;
+   border-color:  #dddddd ;
+}
+.input-form-sucsess:focus{
+    border-color: var(--color--primary);
+}
+
+ .form-input-error-messege{
+     color: var(--color--error);
+     font-size: 0.80rem;
+     margin-top: 0.5rem; margin-left: 0.3rem;
+ }
+
+ .form-buton{
+     width: 100%;
+     background-color:var(--color--primary) ;
+     color: white;
+     border-radius: var(---border--radius);
+     padding: 1rem 2rem;
+     border: none;
+     cursor: pointer;
+     outline: none;
+     transition: 0.4s;
+ }
+ .form-buton:hover{
+     background-color: var(--color--sec-primary);
+     transition: 0.4s;
+     letter-spacing: 1.5px;
+ } 
+ .form-buton:active{
+     transform: scale(0.9);
+ }
+
+ .form-text{
+     text-align: center;
+ }
+ .form-a{
+     text-decoration: none;
+     cursor: pointer;
+     color: var(--color--secendry);
+ }
+ .form-a:hover{
+     color: #010641;
+
+ }
+ .form-messege-sucsess{
+     display: none;
+ }
+ 
+ .logphoto{
+    width:88px;
+  
+ }
+ .log{
+     text-align: center;
+ }
